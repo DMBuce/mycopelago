@@ -1,0 +1,83 @@
+{
+"block_pools" : [
+	{
+		"name": "mutandis",
+		"disableJEI": false,
+		"type":
+		{
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:red_mushroom" },
+				{ "name": "minecraft:brown_mushroom" },
+				{ "name": "botania:mushroom", "meta": 0 },
+				{ "name": "botania:mushroom", "meta": 1 },
+				{ "name": "botania:mushroom", "meta": 2 },
+				{ "name": "botania:mushroom", "meta": 3 },
+				{ "name": "botania:mushroom", "meta": 4 },
+				{ "name": "botania:mushroom", "meta": 5 },
+				{ "name": "botania:mushroom", "meta": 6 },
+				{ "name": "botania:mushroom", "meta": 7 },
+				{ "name": "botania:mushroom", "meta": 8 },
+				{ "name": "botania:mushroom", "meta": 9 },
+				{ "name": "botania:mushroom", "meta": 10 },
+				{ "name": "botania:mushroom", "meta": 11 },
+				{ "name": "botania:mushroom", "meta": 12 },
+				{ "name": "botania:mushroom", "meta": 13 },
+				{ "name": "botania:mushroom", "meta": 14 },
+				{ "name": "botania:mushroom", "meta": 15 }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": true
+			},
+			{
+				"type": "spawn_particles",
+				"name": "happy_villager",
+				"amount": 0,
+				"disableJEI": true
+			}
+		],
+		"drops":
+		[
+			{ "name": "botania:mushroom", "meta": 7,  "weight": 1 },
+			{ "name": "botania:mushroom", "meta": 8,  "weight": 1 },
+			{ "name": "botania:mushroom", "meta": 9,  "weight": 1 },
+			{ "name": "botania:mushroom", "meta": 10, "weight": 1 },
+			{ "name": "botania:mushroom", "meta": 11, "weight": 1 },
+			{ "name": "botania:mushroom", "meta": 12, "weight": 1 },
+			{ "name": "botania:mushroom", "meta": 13, "weight": 1 },
+			{ "name": "botania:mushroom", "meta": 14, "weight": 1 },
+			{ "name": "botania:mushroom", "meta": 15, "weight": 1 },
+			{ "name": "minecraft:red_mushroom",       "weight": 1 },
+			{ "name": "minecraft:brown_mushroom",     "weight": 1 },
+			{ "name": "botania:mushroom", "meta": 0,  "weight": 1 },
+			{ "name": "botania:mushroom", "meta": 1,  "weight": 1 },
+			{ "name": "botania:mushroom", "meta": 2,  "weight": 1 },
+			{ "name": "botania:mushroom", "meta": 3,  "weight": 1 },
+			{ "name": "botania:mushroom", "meta": 4,  "weight": 1 },
+			{ "name": "botania:mushroom", "meta": 5,  "weight": 1 },
+			{ "name": "botania:mushroom", "meta": 6,  "weight": 1 }
+		]
+	}
+]
+}

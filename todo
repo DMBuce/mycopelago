@@ -1,0 +1,261 @@
+
+Doing
+--
+Mutagenic Fertilizer recipe
+
+Todo
+--
+Tweak stack sizes
+Add NBT name to Petal Apothecary
+WorldPrimer keepInventory true
+Add a way to get started in astral sorcery
+* Tome recipe
+* Resonating wand recipe
+* Luminous Crafting Table recipe
+Review mods with CraftTweaker support
+* ContentTweaker -- bonemeal? mutandis? fungal fertilizer?
+* JEI -- remove+hide items, add description
+* Inspirations -- aesthetics, cauldron recipes
+** Interactive bookshelves
+** Old roses
+** Cauldron recipes (for mutandis)
+** Feature requests: Configurable bonemeal, Desaddle Merpigs
+Add Chisel, Carpenter's
+remove Scavenge in JEI and add description tabs instead?
+remove all sapling recipes and saplings in loot tables
+Add sapling recipe for 5x5 astral sorcery altar
+Remove non-wood tool recipes
+Add hostile mobs to nether
+Add ore to nether
+Improve caves (worley's caves?)
+Add botania mushrooms to surface worldgen
+Remove lilypads from worldgen?
+Add More Ocean Content
+* Underwater Utilities
+* Recurrent Complex
+* Aquatic
+Rename items with crafttweaker (change plants to mushrooms etc.)
+* https://www.reddit.com/r/feedthebeast/comments/8qzm85/how_do_i_rename_items_if_thats_even_possible/
+Possible Mods
+* NoMoreRecipeConflict
+* Botania Improved Textures
+* Scavenge to implement Mutandis (crafted with Egg + Spider Eye + Bonemeal)
+* Hookt for custom fishing loot tables
+* Tiny Progressions
+* Botania Garden of Glass?
+* HQM
+* Akashic Tome
+* Quadrum for custom blocks/items
+Make sure botania isn't gated out by lack of mushrooms
+Add bonemeal recipes
+* Bonemeal Mycelium > botania/vanilla mushrooms
+* Bonemeal Sand > cinderpearl
+JEI Info tabs
+* Bonemeal
+Make world creation screen more intuitive
+Playtest Wizardry and Psi, remove one of them
+Change Ender Pearl fish to Ender Clam
+Possible fish recipes
+* coal/charcoal
+Add sources of unobtainable material
+* Rock Crystal
+* Starmetal
+* Crystal Ore? (from EBWizardry)
+* Cinnabar (or shimmerleaf)
+Integrate different types of mana
+Thaumcraft Obsidian
+* Ignis + Floral Powder + Pike = Blaze Pike = Blaze Powder
+* Ignis + Floral Powder + ??? = Obsidian Bream = Obsidian
+* Ignis + Floral Powder + Jellyfish = Magma Jellyfish = Magma Cream
+* Ignis + Floral Powder + Catfish = Fungi Catfish = Nether Wart
+* Ordo + Floral Powder + ??? = Ender Shad = Endstone
+* Perditio + Floral Powder + ??? = Chorus Koi = Chorus Fruit
+* Nether Sturgeon
+* Quartz Chub
+* Withered Crucian
+* Flarefin Koi
+
+Quests
+---
+* Mobs don't spawn within 200? blocks of spawn
+* Make tool alternative (spells? flint?)
+* Make a fishing rod
+* Make a saddle and seaweed stick
+* Find Vis Crystals
+* Find Mushrooms
+* Make a Petal Apothecary
+* Akashic Tome
+* Other Tomes
+
+Done.
+--
+Add flint shears
+Replace boots in fishing table with string
+More fish-based recipes
+* Pure Daisy + Magma = Obsidian
+Tweak Fishing tables with LootTweaker mod
+* Replace enchanted books with Electrobob's Wizardry spells
+* Add fish
+Make fence > stick recipe
+Tweak mob spawning
+# /execute @e[type=!Player] ~ ~ ~ tp @e[r=0] ~ ~-500 ~
+# /kill @e[type=item]
+Tweak sugarcane gen
+Add mods
+* Merpig
+* Clarity or Clear Water
+* Just a Few Fish
+* Wizardry Mod as an Ars Magicka replacement
+* Aqua Creepers
+* Initial Inventory for Boat & Night Vision Potion
+* Advanced Fishing for materials
+* Giacomo's Fishing Net for easier fishing
+Add Seagrass On Stick recipe
+Add saddle recipe
+Initial Inventory: Boat, Night Vision
+Reduce Wizardry trees in worldgen
+Check if Wisdom Trees drop saplings
+Make Angelfish > Feather recipe
+
+Obsidian -- important! need it to get to nether
+--
+Resources
+* Crystal Mullet > Lapis
+* Charged Bullhead > Redstone
+* Jellyfish > Slimeball
+* Angler Fish > Prismarine Crystals > Sea Lantern
+* Abyssal Lurker > Prismarine Shards > Prismarine
+* Sponge Eater > Sponge
+* Somefish > Coal?
+* Mushrooms
+* Vis Crystals
+* Water Bottles
+* Gravel, Clay, Sand
+* Flint
+* Seeds
+* Leather
+* Bones/Bonemeal
+* Tripwire
+* Minecart Tracks
+* Minecart
+* Clay Bucket (for Blood)
+mushrooms
+giant mushroom
+* mushroom blocks
+mycelium
+dirt
+* flint
+mooshrooms
+* beef
+* leather
+* bones
+water?
+botania mushrooms!
+* can be ground into pulp (i.e. petals)
+
+Botania/Guardian Obsidian
+* Prismarine + mushroom = Petal Apothecary
+* Four White Mushrooms + Seed = Pure Daisy
+* Pure Daisy + Magma = Obsidian
+
+* Spider Eye + Floral Powder + Pike = Blaze Pike = Blaze Powder
+* Spider Eye + Floral Powder + ??? = Obsidian Bream = Obsidian
+* Spider Eye + Floral Powder + Jellyfish = Magma Jellyfish = Magma Cream
+
+Thaumcraft Obsidian
+* Ignis + Floral Powder + Pike = Blaze Pike = Blaze Powder
+* Ignis + Floral Powder + ??? = Obsidian Bream = Obsidian
+* Ignis + Floral Powder + Jellyfish = Magma Jellyfish = Magma Cream
+
+Fishing Obsidian
+
+* Ideas
+** Jellyfish = Slimeball
+** Blaze Powder + Slimeball = Magma Cream = Magma
+** Popcorn Smelting mod
+* Option 1: Botania
+** Prismarine + any mushroom = Prismarine Apothecary
+** Four white mushrooms + seed = Pure Daisy
+** Bonemeal + Sand = Cinderpearl = Blaze Powder
+** Jellyfish = Slimeball
+** Blaze Powder + Slimeball = Magma = Obsidian
+* Option 2: Thaumcraft
+** Mushroom + Sugarcane + Spider Eye = Fermented Spider Eye
+** Fish + Ignis + Fermented Spider Eye + Black Floral Powder = Obsidian Fish
+* Option 3: Astral Sorcery
+** Find Astral Sorcery thing, get stone and ores, maybe skip the nether
+
+
+
+Mycopelago
+/mīˈkəˈpeləˌɡō/
+*noun*
+1. A sea or stretch of water containing many mushroom islands.
+Etymology: From Greek *myco-* "fungus" + *pelagos* "sea".
+
+Chapter 1: Mushroom Overworld w/ Botania
+===
+
+The world is overgrown with fungi. The only lifeforms are mushroom-infected cows. Everything is soft and spongy.
+Basically you start in a Mushroom Biome world. Your ultimate goal is to get to a "true overworld" dimension where terrain generates normally, but at this stage in the game your sights are set on getting to the Nether. To that end, the tools you have available are Botania and Magical Psi.
+
+Resources you have in abundance:
+
+* Dirt from Mycelium
+* Steak, Leather, and Bones from Mooshroom
+* Mushrooms
+* Water
+
+Resources you don't have access to in the early game:
+
+* Cobblestone
+* Stone
+* Ores
+* Saplings
+* Lava
+
+With no stone for tools, you have to rely on Magical Psi to interact with the world. I know fuck all about that mod so its progression is left as a design exercise.
+
+Ruins dot the landscape. Some of them have a Petal Apothecary so that you can bootstrap into Botania. The Pure Daisy gives you access to materials not found in this world. It converts Giant Mushroom blocks to Livingwood, Sandstone to Livingrock, and Livingrock to Obsidian.
+
+That should be enough to get you to the Nether but if gameplay demands it,
+
+* Mana pearls are made from slimeballs obtained from spawners in Shrines to Juiblex
+* Mana bricks (alternative to manasteel) are made from clay bricks
+* Those Thaumcraft structures with Witch Spawners give access to mana dust
+
+
+Chapter 2a: Nether w/ Blood Magic
+===
+
+For the adventurous. Lots of danger. High risk, high reward.
+
+Pigmen and Endermen are hostile, not neutral.
+
+The nether gives access to ores, Blood Magic, and Thaumcraft.
+
+
+
+Chapter 2b: The End w/ Astral Sorcery
+===
+
+For the tinkerers. Slow but steady progress that rewards automation.
+
+Other than the "true overworld", this is the only dimension that has starlight for Astral Sorcery.
+
+
+
+Chapter 3: Escape Overworld w/ Thaumcraft // Mystcraft
+Chapter 3: Bust Through Bedrock w/ Thaumcraft
+===
+
+Trick some kind of entity into giving you the power to form a realm of your own design.
+
+or
+
+Discover a subterranean world beneath bedrock.
+
+or
+
+You were underground, discover the overworld above you.
+

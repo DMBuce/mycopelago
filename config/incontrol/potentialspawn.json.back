@@ -1,0 +1,29 @@
+[
+	{
+		"dimension": 0,
+		"biome": ["River", "Ocean", "Deep Ocean"],
+		"mobs": [
+			{"mob": "minecraft:squid",        "weight": 10, "groupcountmin": 4, "groupcountmax": 4},
+			{"mob": "merpig:merpig", "weight": 10, "groupcountmin": 2, "groupcountmax": 5}
+		]
+	},
+	{
+		"dimension": 0,
+		"biome": ["MushroomIsland", "MushroomIslandShore"],
+		"mobs": [
+			{"mob": "minecraft:slime",            "weight": 100, "groupcountmin": 4, "groupcountmax": 4}
+		]
+	},
+	{
+		"dimension": 0,
+		"biome": ["MushroomIsland", "MushroomIslandShore"],
+		"block": "minecraft:water",
+		"mobs": [
+			{"mob": "jaff:cod",        "weight": 10,  "groupcountmin": 3, "groupcountmax": 5},
+			{"mob": "jaff:salmon",     "weight": 10,  "groupcountmin": 3, "groupcountmax": 5},
+			{"mob": "jaff:pufferfish", "weight": 10,  "groupcountmin": 3, "groupcountmax": 5},
+			{"mob": "jaff:clownfish",  "weight": 10,  "groupcountmin": 3, "groupcountmax": 5}
+		]
+	}
+]
+

@@ -1,0 +1,22 @@
+[
+	{
+		"maxspawndist": 200,
+		"result": "deny"
+	},
+	{
+		"dimension": 0,
+		"mob": [
+			"minecraft:creeper",
+			"minecraft:zombie",
+			"minecraft:zombie_villager",
+			"minecraft:skeleton",
+			"minecraft:spider",
+			"minecraft:enderman",
+			"minecraft:witch"
+		],
+		"result": "deny"
+	},
+	{
+		"result": "default"
+	}
+]

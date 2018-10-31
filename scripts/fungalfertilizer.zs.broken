@@ -1,0 +1,73 @@
+
+#loader contenttweaker
+
+import mods.contenttweaker.VanillaFactory;
+import mods.contenttweaker.Item;
+import mods.contenttweaker.IItemRightClick;
+#import mods.contenttweaker.Commands;
+
+val mushrooms = [
+	<botania:mushroom:0>,
+	<botania:mushroom:1>,
+	<botania:mushroom:2>,
+	<botania:mushroom:3>,
+	<botania:mushroom:4>,
+	<botania:mushroom:5>,
+	<botania:mushroom:6>,
+	<botania:mushroom:7>,
+	<botania:mushroom:8>,
+	<botania:mushroom:9>,
+	<botania:mushroom:10>,
+	<botania:mushroom:11>,
+	<botania:mushroom:12>,
+	<botania:mushroom:13>,
+	<botania:mushroom:14>,
+	<botania:mushroom:15>
+];
+
+var fungalfertilizer = VanillaFactory.createItem("fungalfertilizer");
+fungalfertilizer.creativeTab = zsCreativeTab;
+fungalfertilizer.itemRightClick = function(stack, world, player, hand) {
+	# get block player is looking at
+	val reach = 4; # assuming survival, TODO: fix this
+	val partialticks = 0.5; # no clue what this is, TODO: figure this out
+	val raytrace = player.getRayTraceResult(reach, partialticks);
+
+	# if player looking at mycelium
+	if (raytrace.isBlock) {
+		val targetblock = world.getBlock(raytrace.blockPos);
+		if (targetblock in <minecraft:mycelium>.asBlock()) {
+			val rand = world.getRandom();
+			for attempt in 0 .. 15 {
+				# pick a position within 7 blocks horizontally
+				val distance = rand.nextInt(8);
+				val x = rand.nextInt(distance + 1);
+				val z = distance - x;
+				x *= rand.nextBoolean() ? 1 : -1;
+				z *= rand.nextBoolean() ? 1 : -1;
+				val pos = targetblock.getOffset("east", x).getOffset("north", z);
+				# find topmost mycelium block
+				for (y in pos.y + 1 .. pos.y - 3) {
+					if (world.getBlock(pos.getOffset("up", y)) in <minecraft:mycelium>.asBlock()) {
+						pos = pos.getOffset("up", y+1);
+						break;
+					}
+				}
+
+				# if block location is air
+				if (world.getBlock(pos) in <minecraft:air>.asBlock()) {
+					# place random mushroom at location
+					world.setBlockState(mushrooms[rand.nextInt(mushrooms.length)].asBlock(), pos);
+					# set flag to decrement stack size
+				}
+			}
+
+			# if flag from above set
+				# decrement stack size
+				stack.shrink(1);
+		}
+	}
+	return "PASS"; # or "SUCCESS" or "FAIL", TODO: figure out what those mean
+};
+fungalfertilizer.register();
+

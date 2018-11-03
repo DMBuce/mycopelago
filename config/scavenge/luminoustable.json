@@ -1,0 +1,34 @@
+{
+"block_pools" : [
+	{
+		"name": "luminouscraftingtable",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "minecraft:crafting_table"
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "astralsorcery:itemwand",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "astralsorcery:blockaltar",
+				"meta": 0,
+				"disableJEI": true
+			},
+			{
+				"type": "spawn_particles",
+				"name": "happy_villager",
+				"amount": 0,
+				"disableJEI": true
+			}
+		]
+	}
+]
+}

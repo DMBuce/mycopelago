@@ -11,7 +11,7 @@ recipes.addShaped(
 	[
 		[<minecraft:gold_nugget>, <minecraft:carpet:10>, <minecraft:gold_nugget>],
 		[<ebwizardry:magic_crystal>, <minecraft:crafting_table>, <ebwizardry:magic_crystal>],
-		[<minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>]
+		[<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>]
 	]
 );
 

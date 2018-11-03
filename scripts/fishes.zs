@@ -17,6 +17,9 @@ recipes.addShaped(
 	  [ itemstring,  null,    itemstring  ] ]
 );
 
+# rename pearl sardine > ender clam
+<advanced-fishing:fish:14>.displayName = "Enderclam";
+
 # tweak advanced fishing recipes
 recipes.addShapeless(
 	"CTJellyfish2Slime",
@@ -28,7 +31,7 @@ recipes.removeShaped(<minecraft:lava_bucket>, [[<advanced-fishing:fish:1>, <mine
 recipes.removeShaped(<minecraft:magma_cream>, [[<advanced-fishing:fish:1>]]);
 recipes.addShapeless(
 	"CTMagmafish2BlazePowder",
-	<minecraft:blaze_powder>,
+	<minecraft:blaze_powder> * 2,
 	[<advanced-fishing:fish:1>]
 );
 recipes.addShapeless(

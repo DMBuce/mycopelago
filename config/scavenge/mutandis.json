@@ -2,7 +2,7 @@
 "block_pools" : [
 	{
 		"name": "mutandis",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type":
 		{
 			"type": "block_list",
@@ -33,7 +33,7 @@
 			{
 				"type": "require_item",
 				"name": "contenttweaker:mutandis",
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",

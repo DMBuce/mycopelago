@@ -79,6 +79,8 @@ extrastring.addItemEntry(<minecraft:string>, 100);
 # 12 novice books     * 6 weight = 72 total weight
 # 35 apprentice books * 1 weight = 35 total weight
 val wizardbooks = treasuretable.addPool("ebwizardry", 0, 1, 0, 0);
+wizardbooks.addItemEntry(<ebwizardry:arcane_tome:1>, 1);
+wizardbooks.addItemEntry(<ebwizardry:arcane_tome:2>, 1);
 wizardbooks.addItemEntry(<ebwizardry:spell_book:1>,  5);
 wizardbooks.addItemEntry(<ebwizardry:spell_book:2>,  5);
 wizardbooks.addItemEntry(<ebwizardry:spell_book:3>,  5);
@@ -119,11 +121,13 @@ wizardbooks.addItemEntry(<ebwizardry:spell_book:37>, 1);
 wizardbooks.addItemEntry(<ebwizardry:spell_book:38>, 1);
 wizardbooks.addItemEntry(<ebwizardry:spell_book:39>, 1);
 wizardbooks.addItemEntry(<ebwizardry:spell_book:40>, 1);
-wizardbooks.addItemEntry(<ebwizardry:spell_book:41>, 1);
+wizardbooks.addItemEntry(<ebwizardry:spell_book:41>, 5); # conjure pickaxe
 wizardbooks.addItemEntry(<ebwizardry:spell_book:42>, 1);
 wizardbooks.addItemEntry(<ebwizardry:spell_book:43>, 1);
 wizardbooks.addItemEntry(<ebwizardry:spell_book:44>, 1);
 wizardbooks.addItemEntry(<ebwizardry:spell_book:45>, 1);
 wizardbooks.addItemEntry(<ebwizardry:spell_book:46>, 1);
 wizardbooks.addItemEntry(<ebwizardry:spell_book:47>, 1);
+wizardbooks.addItemEntry(<ebwizardry:spell_book:53>, 5); # flaming axe
+wizardbooks.addItemEntry(<ebwizardry:spell_book:58>, 5); # frost axe
 

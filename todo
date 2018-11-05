@@ -2,19 +2,27 @@
 Doing
 --
 Integrate different types of mana
-Fix Inventory Tweaks -- click+drag works weird
+Thaumcraft Obsidian - glass + fire + some sin? + darkness
+Remove non-wood tool recipes (wood too if there's obtainable blockbreaking spell
+World/worldgen changes
+* Improve caves (worley's caves?)
+* Remove lilypads from worldgen?
+Mods
+* Chisel
+* BlockCraftery / Carpenter
+* Just Enough Resources
+* Bird's Foods
+* Punch Wool Off Sheep -- punch shrooms off cow?
+* Gumobtainium
 
 Todo
 --
-Recolor Enderclam from green to black & purple
+Add dupe recipes for Wisdom leaves
 Remove Wizardry?
 World/worldgen changes
 * Add Rock Crystal to overworld
 * Add ores, hostile mobs to nether
-* Remove non-wood tool recipes (wood too if there's obtainable blockbreaking spell
-* Improve caves (worley's caves?)
 * Add botania mushrooms to surface worldgen
-* Remove lilypads from worldgen?
 Sapling changes
 * Add 5x5 astral sorcery altar recipe
 * Remove all recipes
@@ -25,52 +33,37 @@ Sapling changes
 *** The Pinkinator
 *** Dragon Egg
 ** Grows a World Tree with a single Forbidden Fruit in the center
-** Maybe eating Forbidden Fruit puts you in Creative Mode
-** Or maybe each slice gives a different creative item
-** Or it gives a completely random item, including Creative-only items, every time it's eaten
-** Or it gives a random item that's not craftable/lootable/worldgenned
-** Or it gives you more interesting perks
-*** Shrink to 1x1 size
+** Possible mechanics for Forbidden Fruit:
+*** Two fruit, one red one blue. Red puts into Creative, Blue into Adventure.
+*** Puts you in spectator mode. Return to tree for Survival mode.
+*** Each slice of fruit gives a different creative item (bad idea)
+*** Each slice of fruit gives 1-3ish spawn eggs
+*** Can shrink you to 1x1 size
 *** Change biome
 *** Quickly and easily build procedurally generated islands / mountains
-*** Bedrock / Barrier Blocks / Command Blocks / Spawner
-*** Spawn Eggs / Debug Stick
 *** A Pet Dragon
-*** Access to Creative / Spectator modes
 *** Access to keepInventory
 ** Hide Forbidden Fruit in JEI
 Tweak JEI
 * Add description for bonemeal if necessary
 Possible Mods
+* Some kind of backup mod
 * NoMoreRecipeConflict
-* Botania Improved Textures
-* Hookt for custom fishing loot tables
-* Tiny Progressions
-* Botania Garden of Glass?
 * HQM
-* Akashic Tome
 * Quadrum for custom blocks/items
-* Just Enough Resources
-* Chisel
-* BlockCraftery / Carpenter
-* Bird's Foods
-* Punch Wool Off Sheep -- punch shrooms off cow?
 * Bauble Shulker Boxes
-* Gumobtainium
 * Slime Breeder
 * That one that lets you ship default keybinds
+* Underwater Utilities
+* Aquatic
+* Recurrent Complex
 * Inspirations -- aesthetics, cauldron recipes
 ** Interactive bookshelves
 ** Old roses
 ** Cauldron recipes (for mutandis)
 ** Feature requests: Configurable bonemeal, Desaddle Merpigs
-Add More Ocean Content
-* Underwater Utilities
-* Recurrent Complex
-* Aquatic
 Rename items with crafttweaker (change plants to mushrooms etc.)
 * https://www.reddit.com/r/feedthebeast/comments/8qzm85/how_do_i_rename_items_if_thats_even_possible/
-Make sure botania isn't gated out by lack of mushrooms
 Add bonemeal recipes
 * Bonemeal Mycelium > botania/vanilla mushrooms
 * Bonemeal Sand > cinderpearl
@@ -78,17 +71,6 @@ Make world creation screen more intuitive
 Add sources of unobtainable material
 * Rock Crystal
 * Starmetal
-Thaumcraft Obsidian
-* Ignis + Floral Powder + Pike = Blaze Pike = Blaze Powder
-* Ignis + Floral Powder + ??? = Obsidian Bream = Obsidian
-* Ignis + Floral Powder + Jellyfish = Magma Jellyfish = Magma Cream
-* Ignis + Floral Powder + Catfish = Fungi Catfish = Nether Wart
-* Ordo + Floral Powder + ??? = Ender Shad = Endstone
-* Perditio + Floral Powder + ??? = Chorus Koi = Chorus Fruit
-* Nether Sturgeon
-* Quartz Chub
-* Withered Crucian
-* Flarefin Koi
 Implement Scrub version of the pack
 
 Quests/Docs
@@ -106,9 +88,12 @@ Quests/Docs
 * Popcorn smelting
 * Smelting minecart, rails
 * Astral Sorcery intro (right-click for Luminous Crafting Table)
+* Give <psi:spell_bullet:1>.withTag({spell: {spellName: "Break Block", uuidMost: -2322073553933352628 as long, validSpell: 1 as byte, spellList: [{data: {key: "constantNumber", constantValue: "5"}, x: 1, y: 4}, {data: {params: {_target: 4}, key: "operatorEntityPosition"}, x: 2, y: 3}, {data: {params: {_ray: 4, _max: 3, _position: 1}, key: "operatorVectorRaycast"}, x: 2, y: 4}, {data: {params: {_position: 1}, key: "trickBreakBlock"}, x: 2, y: 5}, {data: {key: "selectorCaster"}, x: 3, y: 3}, {data: {params: {_target: 1}, key: "operatorEntityLook"}, x: 3, y: 4}], uuidLeast: -6840038023343653017 as long}})
 
 Done.
 --
+Add shift-right-click Luminous Altar & Fish recipes
+Fix Inventory Tweaks -- click+drag works weird
 Change Ender Pearl fish to Ender Clam
 Explore early game Wizardry, Psi, Thaumcraft, AstralSorc
 Add 3x3 mushroom block recipes
@@ -147,6 +132,7 @@ Tweak mob spawning
 # /kill @e[type=item]
 Tweak sugarcane gen
 Add mods
+* Akashic Tome
 * Popcorn Smelting
 * JEI -- remove+hide items, add description
 * ContentTweaker -- bonemeal? mutandis? fungal fertilizer?

@@ -1,0 +1,39 @@
+	{
+		"name": "fish{{fishnum}}",
+		"disableJEI": true,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": {{fishnum}},
+				"amount": {{fishamt}},
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": {{fishnum}},
+				"amount": {{fishamt}},
+				"disableJEI": true
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": true
+			}
+		],
+		"drops": [
+			{ "name": "{{fishoutput}}"{{fishextra}} }
+		]
+	},

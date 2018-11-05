@@ -135,3 +135,27 @@ recipes.addShaped(<psi:spell_bullet:0>,
 	  [null,             <ore:plankWood>  ] ]
 );
 
+# clear bullets in crafting grid
+recipes.addShapeless("CTClearBullet",
+	<psi:spell_bullet:0>, [<psi:spell_bullet:1>]
+);
+
+# simple block-breaking spell
+#val breakblock = <psi:spell_bullet:1>.withTag({spell: {spellName: "Break Block", uuidMost: -2322073553933352628 as long, validSpell: 1 as byte, spellList: [{data: {key: "constantNumber", constantValue: "5"}, x: 1, y: 4}, {data: {params: {_target: 4}, key: "operatorEntityPosition"}, x: 2, y: 3}, {data: {params: {_ray: 4, _max: 3, _position: 1}, key: "operatorVectorRaycast"}, x: 2, y: 4}, {data: {params: {_position: 1}, key: "trickBreakBlock"}, x: 2, y: 5}, {data: {key: "selectorCaster"}, x: 3, y: 3}, {data: {params: {_target: 1}, key: "operatorEntityLook"}, x: 3, y: 4}], uuidLeast: -6840038023343653017 as long}});
+val breakblock = <psi:spell_bullet:1>.withTag({spell: {spellName: "Break Block", uuidMost: -3557174120712679806 as long, validSpell: 1 as byte, spellList: [{data: {key: "constantNumber", constantValue: "5"}, x: 1, y: 4}, {data: {params: {_target: 4}, key: "operatorEntityPosition"}, x: 2, y: 3}, {data: {params: {_ray: 4, _max: 3, _position: 1}, key: "operatorVectorRaycast"}, x: 2, y: 4}, {data: {params: {_position: 1}, key: "trickBreakBlock"}, x: 2, y: 5}, {data: {key: "selectorCaster"}, x: 3, y: 3}, {data: {params: {_target: 1}, key: "operatorEntityLook"}, x: 3, y: 4}, {data: {key: "errorSuppressor"}, x: 3, y: 5}], uuidLeast: -4618083312826607580 as long}});
+recipes.addShapeless(
+	"CTBlockBreakBullet",
+	breakblock,
+	[
+		<psi:spell_bullet:0>,
+		<minecraft:wooden_pickaxe>,
+		<minecraft:wooden_axe>,
+		<minecraft:wooden_shovel>
+	]
+);
+mods.jei.JEI.addItem(breakblock);
+mods.jei.JEI.addDescription(
+	<psi:spell_bullet:0>,
+	"Craft a Spell Node with a Wooden Pickaxe, Axe, and Shovel to get a basic block-breaking spell."
+);
+

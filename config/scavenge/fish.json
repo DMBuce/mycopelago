@@ -1,0 +1,1759 @@
+{
+"block_pools" : [
+	{
+		"name": "fish0",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 0,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 0,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:slime_ball" }
+		]
+	},
+	{
+		"name": "fish1",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 1,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 1,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:blaze_powder", "amount": 2 }
+		]
+	},
+	{
+		"name": "fish2",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 2,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 2,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:clay_ball", "amount": 4 }
+		]
+	},
+	{
+		"name": "fish3",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 3,
+				"amount": 2,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 3,
+				"amount": 2,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:ice" }
+		]
+	},
+	{
+		"name": "fish4",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 4,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 4,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "giacomos_fishing_net:itemfishmeal" }
+		]
+	},
+	{
+		"name": "fish5",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 5,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 5,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:gold_nugget", "amount": 2 }
+		]
+	},
+	{
+		"name": "fish6",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 6,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 6,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "thaumcraft:quicksilver" }
+		]
+	},
+	{
+		"name": "fish7",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 7,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 7,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:coal", "amount": 4 }
+		]
+	},
+	{
+		"name": "fish8",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 8,
+				"amount": 4,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 8,
+				"amount": 4,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:obsidian" }
+		]
+	},
+	{
+		"name": "fish9",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 9,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 9,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:netherrack" }
+		]
+	},
+	{
+		"name": "fish10",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 10,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 10,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:quartz", "amount": 4 }
+		]
+	},
+	{
+		"name": "fish11",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 11,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 11,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:glowstone_dust", "amount": 2 }
+		]
+	},
+	{
+		"name": "fish12",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 12,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 12,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:blaze_rod" }
+		]
+	},
+	{
+		"name": "fish13",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 13,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 13,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:end_stone" }
+		]
+	},
+	{
+		"name": "fish14",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 14,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 14,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:ender_pearl" }
+		]
+	},
+	{
+		"name": "fish15",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 15,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 15,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:chorus_fruit" }
+		]
+	},
+	{
+		"name": "fish16",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 16,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 16,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:gunpowder", "amount": 3 }
+		]
+	},
+	{
+		"name": "fish17",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 17,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 17,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "giacomos_fishing_net:itemfishmeal" }
+		]
+	},
+	{
+		"name": "fish18",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 18,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 18,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "astralsorcery:itemcraftingcomponent", "meta": 2, "amount": 2 }
+		]
+	},
+	{
+		"name": "fish19",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 19,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 19,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:feather", "amount": 4 }
+		]
+	},
+	{
+		"name": "fish20",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 20,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 20,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:prismarine_crystals", "amount": 2 }
+		]
+	},
+	{
+		"name": "fish21",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 21,
+				"amount": 4,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 21,
+				"amount": 4,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:sponge" }
+		]
+	},
+	{
+		"name": "fish22",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 22,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 22,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:snowball", "amount": 4 }
+		]
+	},
+	{
+		"name": "fish23",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 23,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 23,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:dye", "meta": 0, "amount": 5 }
+		]
+	},
+	{
+		"name": "fish24",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 24,
+				"amount": 2,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 24,
+				"amount": 2,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:soul_sand" }
+		]
+	},
+	{
+		"name": "fish25",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 25,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 25,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:sand" }
+		]
+	},
+	{
+		"name": "fish26",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 26,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 26,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "giacomos_fishing_net:itemfishmeal" }
+		]
+	},
+	{
+		"name": "fish27",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 27,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 27,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:red_mushroom", "amount": 5 }
+		]
+	},
+	{
+		"name": "fish28",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 28,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 28,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:brown_mushroom", "amount": 5 }
+		]
+	},
+	{
+		"name": "fish29",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 29,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 29,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:nether_wart", "amount": 2 }
+		]
+	},
+	{
+		"name": "fish30",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 30,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 30,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:waterlily" }
+		]
+	},
+	{
+		"name": "fish31",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 31,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 31,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:dye", "meta": 4, "amount": 5 }
+		]
+	},
+	{
+		"name": "fish32",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 32,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 32,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:redstone", "amount": 5 }
+		]
+	},
+	{
+		"name": "fish33",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 33,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 33,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:prismarine_shard", "amount": 4 }
+		]
+	},
+	{
+		"name": "fish34",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 34,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 34,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:glowstone_dust", "amount": 2 }
+		]
+	},
+	{
+		"name": "fish35",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 35,
+				"amount": 2,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 35,
+				"amount": 2,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:packed_ice" }
+		]
+	},
+	{
+		"name": "fish36",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 36,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 36,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "giacomos_fishing_net:itemfishmeal", "amount": 3 }
+		]
+	},
+	{
+		"name": "fish37",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 37,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 37,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "giacomos_fishing_net:itemfishmeal", "amount": 3 }
+		]
+	},
+	{
+		"name": "fish38",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 38,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 38,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "ebwizardry:magic_crystal" }
+		]
+	},
+	{
+		"name": "fish39",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 39,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 39,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:slime_ball", "amount": 2 }
+		]
+	},
+	{
+		"name": "fish40",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "advanced-fishing:fish",
+				"meta": 40,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "advanced-fishing:fish",
+				"meta": 40,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "minecraft:bone" }
+		]
+	},
+	{
+		"name": "mcfish0",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "minecraft:fish",
+				"meta": 0,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "minecraft:fish",
+				"meta": 0,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "giacomos_fishing_net:itemfishmeal" }
+		]
+	},
+	{
+		"name": "mcfish1",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "minecraft:fish",
+				"meta": 1,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "minecraft:fish",
+				"meta": 1,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "giacomos_fishing_net:itemfishmeal" }
+		]
+	},
+	{
+		"name": "mcfish2",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "minecraft:fish",
+				"meta": 2,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "minecraft:fish",
+				"meta": 2,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "giacomos_fishing_net:itemfishmeal" }
+		]
+	},
+	{
+		"name": "mcfish3",
+		"disableJEI": false,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "minecraft:fish",
+				"meta": 3,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "consume_item",
+				"name": "minecraft:fish",
+				"meta": 3,
+				"amount": 1,
+				"disableJEI": false
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": false
+			}
+		],
+		"drops": [
+			{ "name": "giacomos_fishing_net:itemfishmeal" }
+		]
+	}
+]
+}

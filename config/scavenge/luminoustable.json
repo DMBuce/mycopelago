@@ -12,8 +12,18 @@
 		"properties":
 		[
 			{
+				"type": "require_sneak",
+				"disableJEI": true
+			},
+			{
 				"type": "require_item",
-				"name": "astralsorcery:itemwand",
+				"name": "astralsorcery:blockmarble",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"name": "astralsorcery:blockmarble",
+				"amount": 1,
 				"disableJEI": true
 			},
 			{
@@ -23,10 +33,9 @@
 				"disableJEI": true
 			},
 			{
-				"type": "spawn_particles",
-				"name": "happy_villager",
-				"amount": 0,
-				"disableJEI": true
+				"type": "play_sound",
+				"disableJEI": true,
+				"name": "block.stone.hit"
 			}
 		]
 	}

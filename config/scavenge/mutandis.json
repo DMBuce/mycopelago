@@ -49,12 +49,6 @@
 				"type": "drop_items",
 				"doDrop": true,
 				"disableJEI": true
-			},
-			{
-				"type": "spawn_particles",
-				"name": "happy_villager",
-				"amount": 0,
-				"disableJEI": true
 			}
 		],
 		"drops":

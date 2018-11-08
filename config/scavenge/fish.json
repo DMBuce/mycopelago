@@ -2,7 +2,7 @@
 "block_pools" : [
 	{
 		"name": "fish0",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -20,19 +20,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 0,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 0,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -41,7 +41,7 @@
 	},
 	{
 		"name": "fish1",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -59,19 +59,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 1,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 1,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -80,7 +80,7 @@
 	},
 	{
 		"name": "fish2",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -98,19 +98,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 2,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 2,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -119,7 +119,7 @@
 	},
 	{
 		"name": "fish3",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -137,19 +137,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 3,
 				"amount": 2,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 3,
 				"amount": 2,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -158,7 +158,7 @@
 	},
 	{
 		"name": "fish4",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -176,19 +176,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 4,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 4,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -197,7 +197,7 @@
 	},
 	{
 		"name": "fish5",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -215,19 +215,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 5,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 5,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -236,7 +236,7 @@
 	},
 	{
 		"name": "fish6",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -254,19 +254,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 6,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 6,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -275,7 +275,7 @@
 	},
 	{
 		"name": "fish7",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -293,19 +293,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 7,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 7,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -314,7 +314,7 @@
 	},
 	{
 		"name": "fish8",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -332,19 +332,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 8,
 				"amount": 4,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 8,
 				"amount": 4,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -353,7 +353,7 @@
 	},
 	{
 		"name": "fish9",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -371,19 +371,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 9,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 9,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -392,7 +392,7 @@
 	},
 	{
 		"name": "fish10",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -410,19 +410,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 10,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 10,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -431,7 +431,7 @@
 	},
 	{
 		"name": "fish11",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -449,19 +449,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 11,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 11,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -470,7 +470,7 @@
 	},
 	{
 		"name": "fish12",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -488,19 +488,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 12,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 12,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -509,7 +509,7 @@
 	},
 	{
 		"name": "fish13",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -527,19 +527,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 13,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 13,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -548,7 +548,7 @@
 	},
 	{
 		"name": "fish14",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -566,19 +566,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 14,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 14,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -587,7 +587,7 @@
 	},
 	{
 		"name": "fish15",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -605,19 +605,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 15,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 15,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -626,7 +626,7 @@
 	},
 	{
 		"name": "fish16",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -644,19 +644,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 16,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 16,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -665,7 +665,7 @@
 	},
 	{
 		"name": "fish17",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -683,19 +683,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 17,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 17,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -704,7 +704,7 @@
 	},
 	{
 		"name": "fish18",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -722,28 +722,28 @@
 				"name": "advanced-fishing:fish",
 				"meta": 18,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 18,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
-			{ "name": "astralsorcery:itemcraftingcomponent", "meta": 2, "amount": 2 }
+			{ "name": "giacomos_fishing_net:itemfishmeal" }
 		]
 	},
 	{
 		"name": "fish19",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -761,19 +761,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 19,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 19,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -782,7 +782,7 @@
 	},
 	{
 		"name": "fish20",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -800,19 +800,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 20,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 20,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -821,7 +821,7 @@
 	},
 	{
 		"name": "fish21",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -839,19 +839,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 21,
 				"amount": 4,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 21,
 				"amount": 4,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -860,7 +860,7 @@
 	},
 	{
 		"name": "fish22",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -878,19 +878,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 22,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 22,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -899,7 +899,7 @@
 	},
 	{
 		"name": "fish23",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -917,19 +917,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 23,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 23,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -938,7 +938,7 @@
 	},
 	{
 		"name": "fish24",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -956,19 +956,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 24,
 				"amount": 2,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 24,
 				"amount": 2,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -977,7 +977,7 @@
 	},
 	{
 		"name": "fish25",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -995,19 +995,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 25,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 25,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -1016,7 +1016,7 @@
 	},
 	{
 		"name": "fish26",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -1034,19 +1034,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 26,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 26,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -1055,7 +1055,7 @@
 	},
 	{
 		"name": "fish27",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -1073,19 +1073,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 27,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 27,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -1094,7 +1094,7 @@
 	},
 	{
 		"name": "fish28",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -1112,19 +1112,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 28,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 28,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -1133,7 +1133,7 @@
 	},
 	{
 		"name": "fish29",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -1151,19 +1151,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 29,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 29,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -1172,7 +1172,7 @@
 	},
 	{
 		"name": "fish30",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -1190,19 +1190,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 30,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 30,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -1211,7 +1211,7 @@
 	},
 	{
 		"name": "fish31",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -1229,19 +1229,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 31,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 31,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -1250,7 +1250,7 @@
 	},
 	{
 		"name": "fish32",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -1268,19 +1268,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 32,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 32,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -1289,7 +1289,7 @@
 	},
 	{
 		"name": "fish33",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -1307,19 +1307,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 33,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 33,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -1328,7 +1328,7 @@
 	},
 	{
 		"name": "fish34",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -1346,19 +1346,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 34,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 34,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -1367,7 +1367,7 @@
 	},
 	{
 		"name": "fish35",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -1385,19 +1385,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 35,
 				"amount": 2,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 35,
 				"amount": 2,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -1406,7 +1406,7 @@
 	},
 	{
 		"name": "fish36",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -1424,19 +1424,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 36,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 36,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -1445,7 +1445,7 @@
 	},
 	{
 		"name": "fish37",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -1463,19 +1463,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 37,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 37,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -1484,7 +1484,7 @@
 	},
 	{
 		"name": "fish38",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -1502,19 +1502,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 38,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 38,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -1523,7 +1523,7 @@
 	},
 	{
 		"name": "fish39",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -1541,19 +1541,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 39,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 39,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -1562,7 +1562,7 @@
 	},
 	{
 		"name": "fish40",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -1580,19 +1580,19 @@
 				"name": "advanced-fishing:fish",
 				"meta": 40,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "advanced-fishing:fish",
 				"meta": 40,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -1601,7 +1601,7 @@
 	},
 	{
 		"name": "mcfish0",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -1619,19 +1619,19 @@
 				"name": "minecraft:fish",
 				"meta": 0,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "minecraft:fish",
 				"meta": 0,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -1640,7 +1640,7 @@
 	},
 	{
 		"name": "mcfish1",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -1658,19 +1658,19 @@
 				"name": "minecraft:fish",
 				"meta": 1,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "minecraft:fish",
 				"meta": 1,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -1679,7 +1679,7 @@
 	},
 	{
 		"name": "mcfish2",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -1697,19 +1697,19 @@
 				"name": "minecraft:fish",
 				"meta": 2,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "minecraft:fish",
 				"meta": 2,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [
@@ -1718,7 +1718,7 @@
 	},
 	{
 		"name": "mcfish3",
-		"disableJEI": false,
+		"disableJEI": true,
 		"type": {
 			"type": "block_list",
 			"blocks": [
@@ -1736,19 +1736,19 @@
 				"name": "minecraft:fish",
 				"meta": 3,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "consume_item",
 				"name": "minecraft:fish",
 				"meta": 3,
 				"amount": 1,
-				"disableJEI": false
+				"disableJEI": true
 			},
 			{
 				"type": "drop_items",
 				"doDrop": true,
-				"disableJEI": false
+				"disableJEI": true
 			}
 		],
 		"drops": [

@@ -1,28 +1,39 @@
 
 Doing
 --
-Integrate different types of mana
-Thaumcraft Obsidian - glass + fire + some sin? + darkness
-Remove non-wood tool recipes (wood too if there's obtainable blockbreaking spell
-World/worldgen changes
-* Improve caves (worley's caves?)
-* Remove lilypads from worldgen?
-Mods
-* Chisel
-* BlockCraftery / Carpenter
-* Just Enough Resources
-* Bird's Foods
-* Punch Wool Off Sheep -- punch shrooms off cow?
-* Gumobtainium
+Make 2 new Bird's Foods textures?
+Add hostile mobs to the nether
+* Fix hostile mobs spawning in nether fortresses
 
 Todo
 --
+Remove strongholds or make em not generate lava or cobble
+* Add alternate way to get to The End
+Remove NetherEnding Ores and retexture vanilla ores?
+Blood Magic: Extract blood from Living(wood|rock) to make regular (wood|stone)
+Integrate different types of mana
+Remove non-wood tool recipes (wood too if there's obtainable blockbreaking spell
+Add modded ores where they belong
+* Astral Sorcery: Treasure shrines, various perks, etc.
+* Blood Magic: That one ritual
+* Botania: Orechid
+Plan how to overcome biggest stumbling blocks
+* Add ores & hostile spawns to nether
+* Make world creation screen intuitive
+** Lockdown mod maybe?
+* End game perk ideas
+Revisit Mod Configs
+* Revisit Popcorn Smelting config - make bounce more?
+* Chisel - disable uncraftable blocks, check if block variants break anything
+* JER - run profiling thingy to generate block distribution charts
+* Bird's Foods - retexture everything :(
 Add dupe recipes for Wisdom leaves
 Remove Wizardry?
+* Only source of grass, so probably not
 World/worldgen changes
-* Add Rock Crystal to overworld
+* Improve caves (worley's caves?)
+* Add Rock Crystal to overworld or nether
 * Add ores, hostile mobs to nether
-* Add botania mushrooms to surface worldgen
 Sapling changes
 * Add 5x5 astral sorcery altar recipe
 * Remove all recipes
@@ -47,6 +58,9 @@ Sapling changes
 Tweak JEI
 * Add description for bonemeal if necessary
 Possible Mods
+* Epic Siege Mod or something else to increase line-of-sight aggro distance
+* Botania Tweaks
+* Copy-Paste mod
 * Some kind of backup mod
 * NoMoreRecipeConflict
 * HQM
@@ -62,8 +76,6 @@ Possible Mods
 ** Old roses
 ** Cauldron recipes (for mutandis)
 ** Feature requests: Configurable bonemeal, Desaddle Merpigs
-Rename items with crafttweaker (change plants to mushrooms etc.)
-* https://www.reddit.com/r/feedthebeast/comments/8qzm85/how_do_i_rename_items_if_thats_even_possible/
 Add bonemeal recipes
 * Bonemeal Mycelium > botania/vanilla mushrooms
 * Bonemeal Sand > cinderpearl
@@ -71,6 +83,15 @@ Make world creation screen more intuitive
 Add sources of unobtainable material
 * Rock Crystal
 * Starmetal
+Possible mechanics if gameplay demands it
+* Pure Daisy: Sandstone > Livingrock
+* Shrines to Juiblex with slime spawners in world
+* Mana Pool: Slimeball > Mana Pearl
+* Mana Pool: Clay Brick > Mana Brick (manasteel alternative)
+* Those Thaumcraft structures with Witch Spawners give access to mana dust
+* Hostile pigmen and/or endermen in nether?
+* Increased starlight in The End to encourage Astral Sorcery bases there
+* Passive mobs only spawn in The End
 Implement Scrub version of the pack
 
 Quests/Docs
@@ -92,6 +113,21 @@ Quests/Docs
 
 Done.
 --
+Add pirhana > blood lightwell recipe
+Astral Sorcery tweaks
+* Make sure Lightwell Magma > Lava recipe is gated behind nether
+* Make treasure shrines not generate stone
+Add botania mushrooms to surface worldgen
+Add Missing Ores
+* Vanilla ores - use Nether Ending Ores mod
+* Amber in the Nether
+* Rock Crystal in The End, not on surface
+* Starmetal also in The End; remove fishing drop
+Tweak Astral Sorcery
+* Generate Rock Crystal in Overworld
+* Fix shrine generation
+* Retexture ores
+Thaumcraft Obsidian - glass + fire + darkness + earth
 Add shift-right-click Luminous Altar & Fish recipes
 Fix Inventory Tweaks -- click+drag works weird
 Change Ender Pearl fish to Ender Clam
@@ -132,6 +168,11 @@ Tweak mob spawning
 # /kill @e[type=item]
 Tweak sugarcane gen
 Add mods
+* Chisel
+* BlockCraftery / Carpenter
+* Just Enough Resources
+* Bird's Foods
+* Punch Wool Off Sheep
 * Akashic Tome
 * Popcorn Smelting
 * JEI -- remove+hide items, add description
@@ -157,7 +198,7 @@ Mod Ideas / Feature/Pull Requests
 Merpig
 * Fix texture
 * Fix AI
-* Make AI follow seaweed on stick in hand
+* Make AI follow seaweed on a stick
 * Desaddle with right click
 BuenoBonemeal -- configurable bonemeal
 Mushroom Pouch -- for botania mushrooms
@@ -240,77 +281,27 @@ Fishing Obsidian
 * Option 3: Astral Sorcery
 ** Find Astral Sorcery thing, get stone and ores, maybe skip the nether
 
+Description
+--
+The world is overgrown with fungi. The only lifeforms are mushroom-infected cows. Everything is soft and spongy.
 
+Welcome to Mycopelago, a survival-mushroom-island-with-magic modpack.
 
 Mycopelago
-/mīˈkəˈpeləˌɡō/
+/mīˈkōˈpeləˌɡō/
 *noun*
 1. A sea or stretch of water containing many mushroom islands.
 Etymology: From Greek *myco-* "fungus" + *pelagos* "sea".
 
-Chapter 1: Mushroom Overworld w/ Botania
-===
+The early game is a survival island experience. You'll need to scavenge in caves, pilfer abandoned mines, and fish the sea for resources. Those resources give access to psionic and electroblobby magic for tools. They also unlock fungal magic and eldritch mysteries that you can use to construct a portal to the nether, where you'll find lava for cobble generation.
 
-The world is overgrown with fungi. The only lifeforms are mushroom-infected cows. Everything is soft and spongy.
-Basically you start in a Mushroom Biome world. Your ultimate goal is to get to a "true overworld" dimension where terrain generates normally, but at this stage in the game your sights are set on getting to the Nether. To that end, the tools you have available are Botania and Magical Psi.
+At that point, the game opens up a lot and offers several things.
 
-Resources you have in abundance:
+First of all you can complete the mushroom island challenge. Claim an island and replace all those mushrooms with beautiful green grass to create a peaceful haven for yourself. Use lighting aesthetically without fear of hostile mobs.
 
-* Dirt from Mycelium
-* Steak, Leather, and Bones from Mooshroom
-* Mushrooms
-* Water
+There are also interesting automation puzzles. Fishing nets can be automated for most resources. You won't have saplings until the endgame, so you'll have to find other ways to generate wood.
 
-Resources you don't have access to in the early game:
+All the big magic mods are present, so you can explore Botania, Thaumcraft, Blood Magic, Astral Sorcery, Wizardry, Electroblob's Wizardry, and Magical Psi.
 
-* Cobblestone
-* Stone
-* Ores
-* Saplings
-* Lava
-
-With no stone for tools, you have to rely on Magical Psi to interact with the world. I know fuck all about that mod so its progression is left as a design exercise.
-
-Ruins dot the landscape. Some of them have a Petal Apothecary so that you can bootstrap into Botania. The Pure Daisy gives you access to materials not found in this world. It converts Giant Mushroom blocks to Livingwood, Sandstone to Livingrock, and Livingrock to Obsidian.
-
-That should be enough to get you to the Nether but if gameplay demands it,
-
-* Mana pearls are made from slimeballs obtained from spawners in Shrines to Juiblex
-* Mana bricks (alternative to manasteel) are made from clay bricks
-* Those Thaumcraft structures with Witch Spawners give access to mana dust
-
-
-Chapter 2a: Nether w/ Blood Magic
-===
-
-For the adventurous. Lots of danger. High risk, high reward.
-
-Pigmen and Endermen are hostile, not neutral.
-
-The nether gives access to ores, Blood Magic, and Thaumcraft.
-
-
-
-Chapter 2b: The End w/ Astral Sorcery
-===
-
-For the tinkerers. Slow but steady progress that rewards automation.
-
-Other than the "true overworld", this is the only dimension that has starlight for Astral Sorcery.
-
-
-
-Chapter 3: Escape Overworld w/ Thaumcraft // Mystcraft
-Chapter 3: Bust Through Bedrock w/ Thaumcraft
-===
-
-Trick some kind of entity into giving you the power to form a realm of your own design.
-
-or
-
-Discover a subterranean world beneath bedrock.
-
-or
-
-You were underground, discover the overworld above you.
+For those of you who want some kind of end game goal, there's a 5x5 crafting recipe for Oak and Tree of Life saplings. Good luck, have fun!
 

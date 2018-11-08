@@ -1,0 +1,165 @@
+{
+    "dependencies": "botania",
+    "populate": {
+        "white-mushroom": {
+            "enabled": true,
+            "distribution": "decoration",
+            "generator": {
+                "block": { "name": "botania:mushroom", "metadata": 0 },
+				"material": [],
+                "cluster-size": 3,
+                "surface": "minecraft:mycelium",
+                "see-sky": true,
+                "check-stay": false,
+                "stack-height": 1
+            },
+			"material": [],
+            "follow-terrain": true,
+            "cluster-count": 4,
+            "chunk-chance": 80,
+            "retrogen": true,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    0
+                ]
+            }
+        },
+        "orange-mushroom": {
+            "enabled": true,
+            "distribution": "decoration",
+            "generator": {
+                "block": [
+                    { "name": "botania:mushroom", "metadata": 1 }
+                ],
+				"material": [],
+                "cluster-size": 6,
+                "surface": "minecraft:mycelium",
+                "see-sky": true,
+                "check-stay": false,
+                "stack-height": 1
+            },
+			"material": [],
+            "follow-terrain": true,
+            "cluster-count": 4,
+            "chunk-chance": 30,
+            "retrogen": true,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    0
+                ]
+            }
+        },
+        "lightblue-mushroom": {
+            "enabled": true,
+            "distribution": "decoration",
+            "generator": {
+                "block": [
+                    { "name": "botania:mushroom", "metadata": 3 }
+                ],
+				"material": [],
+                "cluster-size": 12,
+                "surface": "minecraft:mycelium",
+                "see-sky": true,
+                "check-stay": false,
+                "stack-height": 1
+            },
+			"material": [],
+            "follow-terrain": true,
+            "cluster-count": 4,
+            "chunk-chance": 80,
+            "retrogen": true,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    0
+                ]
+            }
+        },
+        "pink-mushroom": {
+            "enabled": true,
+            "distribution": "decoration",
+            "generator": {
+                "block": [
+                    { "name": "botania:mushroom", "metadata": 6 }
+                ],
+				"material": [],
+                "cluster-size": 6,
+                "surface": "minecraft:mycelium",
+                "see-sky": true,
+                "check-stay": false,
+                "stack-height": 1
+            },
+			"material": [],
+            "follow-terrain": true,
+            "cluster-count": 4,
+            "chunk-chance": 40,
+            "retrogen": true,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    0
+                ]
+            }
+        },
+        "lightgray-mushroom": {
+            "enabled": true,
+            "distribution": "decoration",
+            "generator": {
+                "block": [
+                    { "name": "botania:mushroom", "metadata": 8 }
+                ],
+				"material": [],
+                "cluster-size": 6,
+                "surface": "minecraft:mycelium",
+                "see-sky": true,
+                "check-stay": false,
+                "stack-height": 1
+            },
+			"material": [],
+            "follow-terrain": true,
+            "cluster-count": 4,
+            "chunk-chance": 40,
+            "retrogen": true,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    0
+                ]
+            }
+        },
+        "black-mushroom": {
+            "enabled": true,
+            "distribution": "decoration",
+            "generator": {
+                "block": [
+                    { "name": "botania:mushroom", "metadata": 15 }
+                ],
+				"material": [],
+                "cluster-size": 2,
+                "surface": "minecraft:mycelium",
+                "see-sky": true,
+                "check-stay": false,
+                "stack-height": 1
+            },
+			"material": [],
+            "follow-terrain": true,
+            "cluster-count": 4,
+            "chunk-chance": 80,
+            "retrogen": true,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    0
+                ]
+            }
+        }
+    }
+}

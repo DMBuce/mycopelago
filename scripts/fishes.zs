@@ -64,11 +64,11 @@ recipes.addShapeless(
 	<minecraft:coal> * 4,
 	[<advanced-fishing:fish:7>]
 );
-recipes.addShapeless(
-	"CTSparklingEel2Stardust",
-	<astralsorcery:itemcraftingcomponent:2> * 2,
-	[<advanced-fishing:fish:18>]
-);
+#recipes.addShapeless(
+#	"CTSparklingEel2Stardust",
+#	<astralsorcery:itemcraftingcomponent:2> * 2,
+#	[<advanced-fishing:fish:18>]
+#);
 recipes.addShapeless(
 	"CTAngelfish2Feathers",
 	<minecraft:feather> * 4,
@@ -114,6 +114,7 @@ val minecraftfish = <minecraft:fish:0>
 		| <minecraft:fish:3>;
 val otherfish = <advanced-fishing:fish:4>
 		| <advanced-fishing:fish:17>
+		| <advanced-fishing:fish:18>
 		| <advanced-fishing:fish:26>;
 #		| <advanced-fishing:fish:41>
 #		| <advanced-fishing:fish:42>;

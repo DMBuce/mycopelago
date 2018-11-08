@@ -17,6 +17,57 @@
 		"result": "deny"
 	},
 	{
+		"dimension": -1,
+		"structure": "Fortress",
+		"mob": [
+			"minecraft:zombie_pigman",
+			"minecraft:blaze",
+			"minecraft:wither_skeleton",
+			"minecraft:skeleton",
+			"minecraft:magma_cube"
+		],
+		"result": "allow"
+	},
+	{
+		"dimension": -1,
+		"structure": "Fortress",
+		"mob": [
+			"minecraft:creeper",
+			"minecraft:zombie",
+			"minecraft:zombie_villager",
+			"minecraft:skeleton",
+			"minecraft:spider",
+			"minecraft:enderman",
+			"minecraft:witch",
+
+			"minecraft:ghast",
+
+			"thaumcraft:wisp",
+			"thaumcraft:firebat"
+		],
+		"result": "deny"
+	},
+	{
+		"dimension": -1,
+		"mob": [
+			"minecraft:creeper",
+			"minecraft:zombie",
+			"minecraft:zombie_villager",
+			"minecraft:skeleton",
+			"minecraft:spider",
+			"minecraft:enderman",
+			"minecraft:witch",
+
+			"minecraft:zombie_pigman",
+			"minecraft:ghast",
+			"minecraft:magma_cube",
+
+			"thaumcraft:wisp",
+			"thaumcraft:firebat"
+		],
+		"result": "allow"
+	},
+	{
 		"result": "default"
 	}
 ]

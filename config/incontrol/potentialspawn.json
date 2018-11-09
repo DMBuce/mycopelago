@@ -2,39 +2,52 @@
 	{
 		"dimension": -1,
 		"maxcount": "50,Creeper",
+		"block": [ "minecraft:netherrack", "minecraft:soul_sand" ],
 		"mobs": [ { "mob": "minecraft:creeper",         "groupcountmin": 4, "groupcountmax": 4 } ]
 	},
 	{
 		"dimension": -1,
 		"maxcount": "5,Enderman",
+		"block": [ "minecraft:netherrack", "minecraft:soul_sand" ],
 		"mobs": [ { "mob": "minecraft:enderman",        "groupcountmin": 1, "groupcountmax": 4 } ]
 	},
 	{
 		"dimension": -1,
 		"maxcount": "50,Skeleton",
+		"block": [ "minecraft:netherrack", "minecraft:soul_sand" ],
 		"mobs": [ { "mob": "minecraft:skeleton",        "groupcountmin": 4, "groupcountmax": 4 } ]
 	},
 	{
 		"dimension": -1,
 		"maxcount": "50,Spider",
+		"block": [ "minecraft:netherrack", "minecraft:soul_sand" ],
 		"mobs": [ { "mob": "minecraft:spider",          "groupcountmin": 4, "groupcountmax": 4 } ]
 	},
 	{
 		"dimension": -1,
 		"maxcount": "3,Witch",
+		"block": [ "minecraft:netherrack", "minecraft:soul_sand" ],
 		"mobs": [ { "mob": "minecraft:witch",           "groupcountmin": 1, "groupcountmax": 1 } ]
 	},
 	{
 		"dimension": -1,
 		"maxcount": "3,ZombieVillager",
+		"block": [ "minecraft:netherrack", "minecraft:soul_sand" ],
 		"mobs": [ { "mob": "minecraft:zombie_villager", "groupcountmin": 1, "groupcountmax": 1 } ]
 	},
 	{
 		"dimension": -1,
 		"maxcount": "50,Zombie",
+		"block": [ "minecraft:netherrack", "minecraft:soul_sand" ],
 		"mobs": [ { "mob": "minecraft:zombie",          "groupcountmin": 4, "groupcountmax": 4 } ]
 	},
 
+	{
+		"dimension": -1,
+		"maxcount": "2,Ghast",
+		"block": [ "minecraft:netherrack", "minecraft:soul_sand" ],
+		"mobs": [ { "mob": "minecraft:ghast",           "groupcountmin": 1, "groupcountmax": 1 } ]
+	},
 	{
 		"dimension": -1,
 		"maxcount": "50,minecraft:zombie_pigman",
@@ -42,19 +55,14 @@
 	},
 	{
 		"dimension": -1,
-		"maxcount": "2,Ghast",
-		"mobs": [ { "mob": "minecraft:ghast",           "groupcountmin": 1, "groupcountmax": 1 } ]
+		"maxcount": "50,minecraft:magma_cube",
+		"mobs": [ { "mob": "minecraft:magma_cube",      "groupcountmin": 4, "groupcountmax": 4 } ]
 	},
 	{
 		"dimension": -1,
 		"structure": "Fortress",
 		"maxcount": "5,Blaze",
 		"mobs": [ { "mob": "minecraft:blaze",           "groupcountmin": 4, "groupcountmax": 4 } ]
-	},
-	{
-		"dimension": -1,
-		"maxcount": "50,minecraft:magma_cube",
-		"mobs": [ { "mob": "minecraft:magma_cube",      "groupcountmin": 4, "groupcountmax": 4 } ]
 	},
 	{
 		"dimension": -1,
@@ -66,11 +74,13 @@
 	{
 		"dimension": -1,
 		"maxcount": "3,thaumcraft:firebat",
+		"block": [ "minecraft:netherrack", "minecraft:soul_sand" ],
 		"mobs": [ { "mob": "thaumcraft:firebat",        "groupcountmin": 1, "groupcountmax": 1 } ]
 	},
 	{
 		"dimension": -1,
 		"maxcount": "5,thaumcraft:wisp",
+		"block": [ "minecraft:netherrack", "minecraft:soul_sand" ],
 		"mobs": [ { "mob": "thaumcraft:wisp",           "groupcountmin": 1, "groupcountmax": 1 } ]
 	}
 ]

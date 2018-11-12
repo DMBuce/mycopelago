@@ -32,12 +32,32 @@
       "oreName": "oreDiamond"
     },
     {
+      "weight": 30,
+      "oreName": "oreMagicCrystal"
+    },
+    {
+      "weight": 30,
+      "oreName": "oreCinnabar"
+    },
+    {
       "weight": 20,
       "oreName": "oreEmerald"
     },
     {
       "weight": 20,
       "oreName": "oreCoal"
+    },
+    {
+      "weight": 15,
+      "oreName": "oreAstralStarmetal"
+    },
+    {
+      "weight": 15,
+      "oreName": "oreRockCrystal"
+    },
+    {
+      "weight": 15,
+      "oreName": "oreEndMithril"
     }
   ],
   "explosionStrength": 18.0,

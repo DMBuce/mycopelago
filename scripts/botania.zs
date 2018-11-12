@@ -467,3 +467,54 @@ recipes.addShaped("CTCosmetic15", <botania:cosmetic:15>, [
 	[<botania:mushroom:15>, <botania:manaresource:16>, <botania:mushroom:15>],
 	[<botania:mushroom:15>, <botania:mushroom:15>, <botania:mushroom:15>]
 ]);
+
+# fill wizardry orbs
+mods.botania.ManaInfusion.addInfusion(<wizardry:orb:1>, <wizardry:orb:0>, 5000);
+
+# fill bucket with wizardry mana
+mods.botania.ManaInfusion.addInfusion(
+	<forge:bucketfilled>.withTag({FluidName: "mana_fluid", Amount: 1000}),
+	<minecraft:bucket>, 500000
+);
+
+# orechid
+#
+# example weights:
+#   oreMagicCrystal: 180
+#   oreIron: 20665
+#   oreCinnabar: 180
+#   oreCoal: 46525
+#   oreDiamond: 1265
+#   oreEmerald: 780
+#   oreLapis: 1285
+#   oreAmber: 2075
+#   oreMithril: 8
+#   oreGold: 2970
+#   oreRedstone: 6885
+mods.botania.Orechid.addOre(<ore:oreMagicCrystal>, 1265);
+mods.botania.Orechid.addOre(<ore:oreCinnabar>, 2075);
+mods.botania.Orechid.removeOre(<ore:oreAmber>);
+mods.botania.Orechid.removeOre(<ore:oreMithril>);
+
+# orechid ignem
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherEmerald>, 1265);
+mods.botania.OrechidIgnem.addOre(<ore:oreAmber>, 2075);
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherMithril>, 780);
+mods.botania.OrechidIgnem.removeOre(<ore:oreCobalt>);
+mods.botania.OrechidIgnem.removeOre(<ore:oreArdite>);
+
+# insert greatwood and silverwood into alchemical infusion recipes
+#
+# before: dark wood > oak wood
+# after:  dark wood > greatwood > silverwood > oak wood
+#mods.botania.ManaInfusion.addAlchemy(<minecraft:log>, <minecraft:log2:1>, 40);
+#mods.botania.ManaInfusion.addAlchemy(<minecraft:log:1>, <minecraft:log>, 40);
+#mods.botania.ManaInfusion.addAlchemy(<minecraft:log:2>, <minecraft:log:1>, 40);
+#mods.botania.ManaInfusion.addAlchemy(<minecraft:log:3>, <minecraft:log:2>, 40);
+#mods.botania.ManaInfusion.addAlchemy(<minecraft:log2>, <minecraft:log:3>, 40);
+#mods.botania.ManaInfusion.addAlchemy(<minecraft:log2:1>, <minecraft:log2>, 40);
+mods.botania.ManaInfusion.removeRecipe(<minecraft:log>);
+mods.botania.ManaInfusion.addAlchemy(<thaumcraft:log_greatwood>, <minecraft:log2:1>, 40);
+mods.botania.ManaInfusion.addAlchemy(<thaumcraft:log_silverwood>, <thaumcraft:log_greatwood>, 40);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:log>, <thaumcraft:log_silverwood>, 40);
+

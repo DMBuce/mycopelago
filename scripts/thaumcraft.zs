@@ -8,9 +8,9 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
 	"thaumometer", "", 20,
 	[<aspect:aer>, <aspect:terra>, <aspect:aqua>, <aspect:ignis>, <aspect:ordo>, <aspect:perditio>], 
 	<thaumcraft:thaumometer>, [
-		[null, <minecraft:gold_nugget>, null],
-		[<minecraft:gold_nugget>, <minecraft:glass_pane>, <minecraft:gold_nugget>],
-		[null, <minecraft:gold_nugget>, null]
+		[null, <ore:nuggetGold>, null],
+		[<ore:nuggetGold>, <minecraft:glass_pane>, <ore:nuggetGold>],
+		[null, <ore:nuggetGold>, null]
 	]
 );
 

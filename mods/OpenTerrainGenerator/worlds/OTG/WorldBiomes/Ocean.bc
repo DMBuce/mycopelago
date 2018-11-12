@@ -213,7 +213,7 @@ SurfaceAndGroundControl:
 # Example :
 #   ReplacedBlocks: (GRASS,DIRT,100,127),(GRAVEL,GLASS)
 # Replace grass block to dirt from 100 to 127 height and replace gravel to glass on all height 
-ReplacedBlocks: None
+ReplacedBlocks: (MYCEL,SAND,62,64),(DIRT,SAND,62,64)
 
 ################################
 # Water / Lava & Frozen States #
@@ -371,7 +371,7 @@ Plant(BrownMushroom,2,25.0,0,128,MYCEL,DIRT)
 Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
 Plant(Dandelion,2,100.0,0,128,GRASS,DIRT)
 Plant(PUMPKIN,1,3.0,0,128,MYCEL)
-Reed(SUGAR_CANE_BLOCK,5,100.0,0,128,MYCEL,GRASS,DIRT,SAND)
+Reed(SUGAR_CANE_BLOCK,50,100.0,0,128,GRASS,DIRT,SAND)
 CustomObject(UseWorld)
 
 #######################################################################

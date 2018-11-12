@@ -1,13 +1,67 @@
 {
-    "dependencies": "botania",
+    "dependencies": ["botania", "thaumcraft"],
     "populate": {
+        "black-lotus": {
+            "enabled": true,
+            "distribution": "decoration",
+            "generator": {
+                "block": [
+                    { "name": "contenttweaker:blacklotus", "metadata": 0 }
+                ],
+				"material": [],
+                "cluster-size": 8,
+                "surface": "minecraft:grass",
+                "see-sky": false,
+                "check-stay": false,
+                "stack-height": 1
+            },
+			"material": [],
+            "follow-terrain": true,
+            "cluster-count": 50,
+            "chunk-chance": 1,
+            "retrogen": true,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    0
+                ]
+            }
+        },
+        "vishroom": {
+            "enabled": true,
+            "distribution": "decoration",
+            "generator": {
+                "block": [
+                    { "name": "thaumcraft:vishroom" }
+                ],
+				"material": [],
+                "cluster-size": 2,
+                "surface": "minecraft:mycelium",
+                "see-sky": true,
+                "check-stay": false,
+                "stack-height": 1
+            },
+			"material": [],
+            "follow-terrain": true,
+            "cluster-count": 2,
+            "chunk-chance": 80,
+            "retrogen": true,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    0
+                ]
+            }
+        },
         "white-mushroom": {
             "enabled": true,
             "distribution": "decoration",
             "generator": {
                 "block": { "name": "botania:mushroom", "metadata": 0 },
 				"material": [],
-                "cluster-size": 3,
+                "cluster-size": 5,
                 "surface": "minecraft:mycelium",
                 "see-sky": true,
                 "check-stay": false,
@@ -16,7 +70,7 @@
 			"material": [],
             "follow-terrain": true,
             "cluster-count": 4,
-            "chunk-chance": 80,
+            "chunk-chance": 50,
             "retrogen": true,
             "biome": "all",
             "dimension": {

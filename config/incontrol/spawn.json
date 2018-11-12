@@ -18,30 +18,17 @@
 	},
 	{
 		"dimension": -1,
-		"structure": "Fortress",
-		"mob": [
-			"minecraft:blaze",
-			"minecraft:wither_skeleton"
-		],
-		"result": "allow"
+		"mob": "minecraft:enderman",
+		"random": 0.5,
+		"result": "default",
+		"angry": true
 	},
 	{
 		"dimension": -1,
-		"canspawnhere": true,
-		"block": [
-			"minecraft:netherrack",
-			"minecraft:soul_sand"
-		],
-		"mob": [
-			"minecraft:creeper",
-			"minecraft:zombie",
-			"minecraft:zombie_villager",
-			"minecraft:skeleton",
-			"minecraft:spider",
-			"minecraft:enderman",
-			"minecraft:witch"
-		],
-		"result": "allow"
+		"mob": "minecraft:zombie_pigman",
+		"random": 0.02,
+		"result": "default",
+		"angry": true
 	},
 	{
 		"result": "default"

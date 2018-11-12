@@ -5,6 +5,10 @@ mods.astralsorcery.Lightwell.removeLiquefaction(<minecraft:magma>, <liquid:lava>
 # add pirhana > blood recipe
 mods.astralsorcery.Lightwell.addLiquefaction(<advanced-fishing:fish:4>, <liquid:lifeessence>, 1, 1, 6947333);
 
+# add living(wood|rock) > blood recipes
+mods.astralsorcery.Lightwell.addLiquefaction(<botania:livingwood>, <liquid:lifeessence>, 1, 1, 6947333);
+mods.astralsorcery.Lightwell.addLiquefaction(<botania:livingrock>, <liquid:lifeessence>, 1, 1, 6947333);
+
 ## luminous crafting table
 #mods.jei.JEI.addDescription(
 #	[

@@ -1,0 +1,25 @@
+River
+--
+SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}, {"mob": "EntityMerpig", "weight": 10, "min": 2, "max": 5}]
+
+Ocean
+--
+SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}, {"mob": "EntityMerpig", "weight": 10, "min": 2, "max": 5}]
+
+DeepOcean
+--
+SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}, {"mob": "EntityMerpig", "weight": 10, "min": 2, "max": 5}]
+
+MushroomIsland
+--
+SpawnMonsters: [{"mob": "slime", "weight": 100, "min": 4, "max": 4}]
+SpawnWaterCreatures: [{"mob": "EntityCod", "weight": 10, "min": 3, "max": 5}, {"mob": "EntitySalmon", "weight": 10, "min": 3, "max": 5}, {"mob": "EntityPufferfish", "weight": 10, "min": 3, "max": 5}, {"mob": "EntityClownfish", "weight": 10, "min": 3, "max": 5}]
+
+MushroomIslandShore
+--
+SpawnMonsters: [{"mob": "slime", "weight": 100, "min": 4, "max": 4}]
+SpawnWaterCreatures: [{"mob": "EntityCod", "weight": 10, "min": 3, "max": 5}, {"mob": "EntitySalmon", "weight": 10, "min": 3, "max": 5}, {"mob": "EntityPufferfish", "weight": 10, "min": 3, "max": 5}, {"mob": "EntityClownfish", "weight": 10, "min": 3, "max": 5}]
+
+Hell
+--
+SpawnMonsters: [{"mob": "creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "spider", "weight": 100, "min": 4, "max": 4}, {"mob": "witch", "weight": 5, "min": 1, "max": 1}, {"mob": "zombie_villager", "weight": 5, "min": 1, "max": 1}, {"mob": "zombie", "weight": 95, "min": 4, "max": 4}]

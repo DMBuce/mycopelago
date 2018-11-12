@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "normal": "botania:items/black_lotus_intense",
+      "all": "botania:items/black_lotus_intense",
+      "cross": "botania:items/black_lotus_intense"
+    },
+    "model": "cross",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "output": {
+    "item": "botania:manatablet",
+    "nbt": "{mana:500000}"
+  },
+  "input": {
+    "item": "botania:livingrock",
+    "data": 0
+  },
+  "extraInputs": [
+    {
+      "item": "botania:manaresource",
+      "data": 2
+    }
+  ],
+  "required": 1,
+  "consume": true,
+  "explode": true,
+  "harp": false
+}

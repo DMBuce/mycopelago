@@ -108,11 +108,12 @@ recipes.addShapeless(
 );
 
 # turn the rest of the fish into fishmeal
-val minecraftfish = <minecraft:fish:0>
-		| <minecraft:fish:1>
-		| <minecraft:fish:2>
-		| <minecraft:fish:3>;
-val otherfish = <advanced-fishing:fish:4>
+#val minecraftfish = <minecraft:fish:0>
+#		| <minecraft:fish:1>
+#		| <minecraft:fish:2>
+#		| <minecraft:fish:3>;
+val otherfish = <minecraft:fish:2>
+		| <advanced-fishing:fish:4>
 		| <advanced-fishing:fish:17>
 		| <advanced-fishing:fish:18>
 		| <advanced-fishing:fish:26>;
@@ -121,7 +122,7 @@ val otherfish = <advanced-fishing:fish:4>
 recipes.addShapeless(
 	"CTFish2Fishmeal",
 	<giacomos_fishing_net:itemfishmeal>,
-	[otherfish | minecraftfish]
+	[otherfish]
 );
 recipes.addShapeless(
 	"CTBigfish2Fishmeal",

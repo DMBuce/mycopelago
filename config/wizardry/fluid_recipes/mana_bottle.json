@@ -1,0 +1,11 @@
+{
+  "output": {
+    "item": "botania:manabottle",
+    "nbt": "{mana:500000}"
+  },
+  "input": {
+    "item": "minecraft:glass_bottle"
+  },
+  "duration": 0,
+  "harp": false
+}

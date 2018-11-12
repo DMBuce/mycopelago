@@ -2,16 +2,16 @@
 # rod constructor
 recipes.remove(<psi:cad_assembler>);
 recipes.addShaped(<psi:cad_assembler>,
-	[ [<minecraft:gold_nugget>, <ore:logWood>,    <minecraft:gold_nugget>],
+	[ [<ore:nuggetGold>, <ore:logWood>,    <ore:nuggetGold>],
 	  [<ore:logWood>,           <minecraft:crafting_table>, <ore:logWood>],
-	  [null,                    <minecraft:gold_ingot>,              null] ]
+	  [null,                    <ore:ingotGold>,              null] ]
 );
 
 # spell inscriber
 recipes.remove(<psi:programmer>);
 recipes.addShaped(<psi:programmer>,
 	[ [<ore:logWood>,           <minecraft:map>,  <ore:logWood>          ],
-	  [<minecraft:gold_nugget>, <psi:material:0>, <minecraft:gold_nugget>],
+	  [<ore:nuggetGold>, <psi:material:0>, <ore:nuggetGold>],
 	  [<ore:logWood>,           null,             <ore:logWood>          ] ]
 );
 
@@ -51,17 +51,17 @@ mods.jei.JEI.addDescription(
 # iron rod frame
 recipes.remove(<psi:cad_assembly:0>);
 recipes.addShaped(<psi:cad_assembly:0>,
-	[ [<minecraft:iron_nugget>, null,            null                   ],
-	  [<minecraft:iron_nugget>, <ore:stickWood>, <minecraft:iron_nugget>],
-	  [null,                    null,            <minecraft:iron_nugget>] ]
+	[ [<ore:nuggetIron>, null,            null                   ],
+	  [<ore:nuggetIron>, <ore:stickWood>, <ore:nuggetIron>],
+	  [null,                    null,            <ore:nuggetIron>] ]
 );
 
 # gold rod frame
 recipes.remove(<psi:cad_assembly:1>);
 recipes.addShaped(<psi:cad_assembly:1>,
-	[ [<minecraft:gold_nugget>, null,            null                   ],
-	  [<minecraft:gold_nugget>, <ore:stickWood>, <minecraft:gold_nugget>],
-	  [null,                    null,            <minecraft:gold_nugget>] ]
+	[ [<ore:nuggetGold>, null,            null                   ],
+	  [<ore:nuggetGold>, <ore:stickWood>, <ore:nuggetGold>],
+	  [null,                    null,            <ore:nuggetGold>] ]
 );
 
 # psimetal rod frame
@@ -75,25 +75,25 @@ recipes.addShaped(<psi:cad_assembly:2>,
 # humble rod crux
 recipes.remove(<psi:cad_core:0>);
 recipes.addShaped(<psi:cad_core:0>,
-	[ [<minecraft:iron_nugget>, null,             null                   ],
+	[ [<ore:nuggetIron>, null,             null                   ],
 	  [<minecraft:redstone>,    <psi:material:0>, <minecraft:redstone>   ],
-	  [null,                    null,             <minecraft:iron_nugget>] ]
+	  [null,                    null,             <ore:nuggetIron>] ]
 );
 
 # quick rod crux
 recipes.remove(<psi:cad_core:1>);
 recipes.addShaped(<psi:cad_core:1>,
-	[ [<minecraft:gold_nugget>, null,             null                   ],
+	[ [<ore:nuggetGold>, null,             null                   ],
 	  [<minecraft:redstone>,    <psi:material:1>, <minecraft:redstone>   ],
-	  [null,                    null,             <minecraft:gold_nugget>] ]
+	  [null,                    null,             <ore:nuggetGold>] ]
 );
 
 # bright rod crux
 recipes.remove(<psi:cad_core:2>);
 recipes.addShaped(<psi:cad_core:2>,
-	[ [<minecraft:gold_nugget>,    null,             null ],
+	[ [<ore:nuggetGold>,    null,             null ],
 	  [<minecraft:glowstone_dust>, <psi:material:1>, <minecraft:glowstone_dust>],
-	  [null,                       null,             <minecraft:gold_nugget>] ]
+	  [null,                       null,             <ore:nuggetGold>] ]
 );
 
 # minor rod notch
@@ -123,9 +123,9 @@ recipes.addShaped(<psi:cad_socket:2>,
 # glowing rod source
 recipes.remove(<psi:cad_battery:0>);
 recipes.addShaped(<psi:cad_battery:0>,
-	[ [<minecraft:gold_nugget>],
+	[ [<ore:nuggetGold>],
 	  [<psi:material:0>       ],
-	  [<minecraft:gold_nugget>] ]
+	  [<ore:nuggetGold>] ]
 );
 
 # spell node

@@ -1,98 +1,64 @@
 
 Doing
 --
-Make 2 new Bird's Foods textures?
-Add hostile mobs to the nether
-* Fix hostile mobs spawning in nether fortresses
+Make 2 new Bird's Foods textures
+Retexture black lotus
+Redo wood recipes (see below)
+* Figure out Astral Sorcery recipe
+Add easy alchemy recipes for thaumcraft wood from regular wood
+* Botania: alchemical catalyst - redo so birch > silverwood
+* Thaumcraft: alchemical construct - ???
+* Blood Magic: alchemy circle (arcane ashes) - mutagenic paste for reagent
+* Astral Sorcery: Starlight Transmutation - birch & dark oak
+Add 5x5 sapling recipe
+* Astral Sorcery: Iridescent Altar
+* Botania: Will of ___
+* Thaumcraft: Void Metal I guess?
+* Blood Magic: Living Armor or something?
+
+Pure Daisy + Cactus (requires block placers/breakers, timing)
+Crucible + Mushroom + Plant Aspect (requires silk touch mushroom farm, risky)
+Alchemical Table + Plank + Livingplank + Blood (needs autocrafting)
+Mutagenic Paste + Pumpkin (can't be automated)
+
+Inspirations: Cauldron + 
+Liquid Interaction: Blood + 
+Infusion: Liquid Starlight + 
 
 Todo
 --
-Remove strongholds or make em not generate lava or cobble
-* Add alternate way to get to The End
-Remove NetherEnding Ores and retexture vanilla ores?
-Blood Magic: Extract blood from Living(wood|rock) to make regular (wood|stone)
-Integrate different types of mana
-Remove non-wood tool recipes (wood too if there's obtainable blockbreaking spell
-Add modded ores where they belong
-* Astral Sorcery: Treasure shrines, various perks, etc.
-* Blood Magic: That one ritual
-* Botania: Orechid
-Plan how to overcome biggest stumbling blocks
-* Add ores & hostile spawns to nether
-* Make world creation screen intuitive
-** Lockdown mod maybe?
-* End game perk ideas
-Revisit Mod Configs
-* Revisit Popcorn Smelting config - make bounce more?
-* Chisel - disable uncraftable blocks, check if block variants break anything
-* JER - run profiling thingy to generate block distribution charts
-* Bird's Foods - retexture everything :(
-Add dupe recipes for Wisdom leaves
-Remove Wizardry?
-* Only source of grass, so probably not
+Make sure botania loops are mana positive
 World/worldgen changes
-* Improve caves (worley's caves?)
-* Add Rock Crystal to overworld or nether
-* Add ores, hostile mobs to nether
-Sapling changes
-* Add 5x5 astral sorcery altar recipe
-* Remove all recipes
-* Remove all saplings in loot tables
-* Add Worldtree Sapling
-** Crafted with one of each sapling plus some endgame items
-*** Will of ___ from Botania
-*** The Pinkinator
-*** Dragon Egg
-** Grows a World Tree with a single Forbidden Fruit in the center
-** Possible mechanics for Forbidden Fruit:
-*** Two fruit, one red one blue. Red puts into Creative, Blue into Adventure.
-*** Puts you in spectator mode. Return to tree for Survival mode.
-*** Each slice of fruit gives a different creative item (bad idea)
-*** Each slice of fruit gives 1-3ish spawn eggs
-*** Can shrink you to 1x1 size
-*** Change biome
-*** Quickly and easily build procedurally generated islands / mountains
-*** A Pet Dragon
-*** Access to keepInventory
-** Hide Forbidden Fruit in JEI
-Tweak JEI
-* Add description for bonemeal if necessary
+* Obsidian End Quartz Geodes in The End
+* Obsidian spikes in The End
+Overhaul fluids, add lots of interactions
+Revisit Mod Configs
+* Chisel - hide uncraftable blocks, check if block variants break anything
+* Bird's Foods - retexture everything :(
+Recurrent Complex ideas
+* Giant mushrooms made of petal blocks
+* Superhostile-type nether structures
+* Structures with spawners in nether / end
+* Shrines to Juiblex with slime spawners
+* Use Killer Bunny, Illusioner, Vex, Illagers, Firebats, Wisps somehow
+* Also use TNT and fire arrows
 Possible Mods
-* Epic Siege Mod or something else to increase line-of-sight aggro distance
-* Botania Tweaks
-* Copy-Paste mod
 * Some kind of backup mod
 * NoMoreRecipeConflict
 * HQM
+* Chicken Chunk
+* Recurrent Complex -- structures with spawners in nether
+* Addons for Thaumcraft, Blood Magic
+* Cyclic - for block placers?
+* Roguelike Dungeons - for spawners? or just add spawn eggs?
+* Epic Siege Mod or something else to increase line-of-sight aggro distance
+* Botania Tweaks
+* Copy-Paste mod
 * Quadrum for custom blocks/items
 * Bauble Shulker Boxes
-* Slime Breeder
 * That one that lets you ship default keybinds
 * Underwater Utilities
 * Aquatic
-* Recurrent Complex
-* Inspirations -- aesthetics, cauldron recipes
-** Interactive bookshelves
-** Old roses
-** Cauldron recipes (for mutandis)
-** Feature requests: Configurable bonemeal, Desaddle Merpigs
-Add bonemeal recipes
-* Bonemeal Mycelium > botania/vanilla mushrooms
-* Bonemeal Sand > cinderpearl
-Make world creation screen more intuitive
-Add sources of unobtainable material
-* Rock Crystal
-* Starmetal
-Possible mechanics if gameplay demands it
-* Pure Daisy: Sandstone > Livingrock
-* Shrines to Juiblex with slime spawners in world
-* Mana Pool: Slimeball > Mana Pearl
-* Mana Pool: Clay Brick > Mana Brick (manasteel alternative)
-* Those Thaumcraft structures with Witch Spawners give access to mana dust
-* Hostile pigmen and/or endermen in nether?
-* Increased starlight in The End to encourage Astral Sorcery bases there
-* Passive mobs only spawn in The End
-Implement Scrub version of the pack
 
 Quests/Docs
 ---
@@ -111,12 +77,46 @@ Quests/Docs
 * Astral Sorcery intro (right-click for Luminous Crafting Table)
 * Give <psi:spell_bullet:1>.withTag({spell: {spellName: "Break Block", uuidMost: -2322073553933352628 as long, validSpell: 1 as byte, spellList: [{data: {key: "constantNumber", constantValue: "5"}, x: 1, y: 4}, {data: {params: {_target: 4}, key: "operatorEntityPosition"}, x: 2, y: 3}, {data: {params: {_ray: 4, _max: 3, _position: 1}, key: "operatorVectorRaycast"}, x: 2, y: 4}, {data: {params: {_position: 1}, key: "trickBreakBlock"}, x: 2, y: 5}, {data: {key: "selectorCaster"}, x: 3, y: 3}, {data: {params: {_target: 1}, key: "operatorEntityLook"}, x: 3, y: 4}], uuidLeast: -6840038023343653017 as long}})
 
+Cleanup Phase
+---
+Add ways to obtain passive mobs
+Implement Scrub version of the pack
+Check scripts for stuff that should be oreDict'ed
+Review ores
+Look for unobtainable materials somehow -- JEI?
+Run profiler thing for JER to generate block distribution charts
+Double-check ways to get Stone/Cobble/Obsidian/Lava/Saplings
+
 Done.
 --
-Add pirhana > blood lightwell recipe
-Astral Sorcery tweaks
-* Make sure Lightwell Magma > Lava recipe is gated behind nether
-* Make treasure shrines not generate stone
+Add sources of unobtainable material
+* Rock Crystal
+* Starmetal
+Hostile pigmen and/or endermen in nether?
+Add ores to nether
+Remove ores from JEI
+Add modded ores where they belong
+* Astral Sorcery: Treasure shrines, various perks, etc.
+* Blood Magic: That one meteor ritual
+* Botania: Orechid (overworld only)
+* Botania: Orechid Ignis (nether only)
+Add Mithril
+* Only obtainable from Blood Magic Meteors, Orechid Ignis
+Add Mithril Ingot item, add it to ingot oredicts
+* Manasteel
+* Starmetal
+* Psimetal
+* Alchemical Brass
+Remove ardite, cobalt from Orechid Ignem
+Nerf vanilla tools
+Integrate different types of mana
+Add Black Lotus to Mana Pools
+Blood Magic: Extract blood from Living(wood|rock) to make regular (wood|stone)
+Make sand generate on shore for sugarcane
+Check Bird's Foods for overlapping recipes
+Remove strongholds
+Make end portal frames craftable and breakable
+Make treasure shrines not generate stone
 Add botania mushrooms to surface worldgen
 Add Missing Ores
 * Vanilla ores - use Nether Ending Ores mod
@@ -168,6 +168,7 @@ Tweak mob spawning
 # /kill @e[type=item]
 Tweak sugarcane gen
 Add mods
+* Inspirations
 * Chisel
 * BlockCraftery / Carpenter
 * Just Enough Resources
@@ -195,12 +196,21 @@ Make Angelfish > Feather recipe
 
 Mod Ideas / Feature/Pull Requests
 --
+Compat between OTG and Lockdown
+* Breadcrumbs are at net.minecraft.client.gui.GuiCreateWorld in those projects
+Disable Ender Eyes
+Shearable Mooshrooms
+* Make em act like they just got punched when sheared
 Merpig
 * Fix texture
 * Fix AI
 * Make AI follow seaweed on a stick
 * Desaddle with right click
+MCreator -- program to create mods with
 BuenoBonemeal -- configurable bonemeal
+* Bonemeal Mycelium > Mushrooms
+* Bonemeal Sand > Cinderpearl, Dead Bush, Cactus, Sugarcane
+* Bonemeal Dirt > Tall Grass, Sugarcane
 Mushroom Pouch -- for botania mushrooms
 * alternately, Better Botania Bags -- for mushrooms, petals, flowers
 More Mushrooms
@@ -212,6 +222,20 @@ Slime Supplement
 * Or, only named/persistent slimes should grow
 * Add different colored variants that give different resources
 * Actually, this could be done with clever use of CT + Scavenge, maybe?
+Endgame content: Worldtree Sapling (or something)
+* Crafted with one of each sapling plus some endgame items
+** Will of ___ from Botania
+** The Pinkinator
+** Dragon Egg
+* Grows a World Tree with a single Forbidden Fruit in the center
+* Possible perks
+** Spectator mode (enlightenment)
+** Access to keepInventory (immortality)
+** Change biome (rejuvenation / regrowth / restoration)
+** Quickly and easily build procedurally generated islands / mountains (growth)
+** Spawn eggs (life)
+** Shrink to 1x1 size (humility)
+* Hide Forbidden Fruit in JEI
 
 Obsidian -- important! need it to get to nether
 --

@@ -18,21 +18,22 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
 mods.thaumcraft.Crucible.registerRecipe(
 	"CTCrucibleObsidian", "",
 	<minecraft:obsidian>, <minecraft:glass>,
-	[<aspect:terra> * 2, <aspect:ignis> * 5, <aspect:tenebrae> * 5]
+	[<aspect:tenebrae> * 12, <aspect:ignis> * 3, <aspect:terra> * 3]
 );
 
 # 2 terra + mushroom block = wood
-mods.thaumcraft.Crucible.registerRecipe(
-	"CTCrucibleWood", "",
-	<minecraft:log:0>,
-	<minecraft:red_mushroom_block>,
-	[<aspect:terra> * 2]
-);
+<minecraft:log2:1>.removeAspects(<aspect:herba>);
 mods.thaumcraft.Crucible.registerRecipe(
 	"CTCrucibleWood2", "",
 	<minecraft:log:0>,
 	<minecraft:brown_mushroom_block>,
-	[<aspect:terra> * 2]
+	[<aspect:herba> * 2]
+);
+mods.thaumcraft.Crucible.registerRecipe(
+	"CTCrucibleWood", "",
+	<minecraft:log2:1>,
+	<minecraft:red_mushroom_block>,
+	[<aspect:herba> * 2]
 );
 
 # rename amber ore

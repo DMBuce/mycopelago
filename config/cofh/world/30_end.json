@@ -43,6 +43,72 @@
 					1
 				]
 			}
+		},
+		"ore-geode": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": "minecraft:obsidian",
+				"material": [
+					"minecraft:air"
+				],
+				"hollow": true,
+				"filler": [
+					{ "name": "minecraft:stained_glass_pane", "metadata": 10 },
+					{ "name": "astralsorcery:blockcustomore", "weight": 10 },
+					{ "name": "netherendingores:ore_end_modded_1", "metadata": 4, "weight": 10 }
+				],
+				"crust": "minecraft:obsidian"
+			},
+			"cluster-count": 1,
+			"chunk-chance": 500,
+			"min-height": 75,
+			"max-height": 150,
+			"biome": "all",
+			"in-village": false,
+			"retrogen": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"spikes": {
+			"distribution": "surface",
+			"generator": {
+				"type": "spike",
+				"block": [
+					{
+						"name": "minecraft:obsidian",
+						"weight": 100
+					}
+				],
+				"min-height": 12,
+				"size-variance": 2,
+				"height-variance": 8,
+				"large-spikes": true,
+				"large-spike-chance": 3,
+				"large-spike-filler-size": 2,
+				"material": [
+					"minecraft:end_stone",
+					"minecraft:air"
+				],
+				"cluster-size": 8
+			},
+			"cluster-count": 1,
+			"chunk-chance": 250,
+			"material": "minecraft:end_stone",
+			"min-height": 40,
+			"max-height": 99,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
 		}
 	}
 }

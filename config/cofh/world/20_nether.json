@@ -172,6 +172,172 @@
 					-1
 				]
 			}
+		},
+		"nether-lake": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "lake",
+				"block": "bloodmagic:life_essence",
+				"material": "minecraft:netherrack",
+				"use-material": true,
+				"outline-block": [
+					{ "name": "thaumcraft:flesh_block" }
+				]
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,
+			"min-height": 10,
+			"max-height": 120,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-stalactite": {
+			"distribution": "cave",
+			"ceiling": true,
+			"generator": {
+				"type": "stalactite",
+				"block": [
+					{ "name": "minecraft:bone_block", "weight": 95 },
+					{ "name": "minecraft:soul_sand", "weight": 5 }
+				],
+				"material": [
+					{ "name": "minecraft:netherrack" },
+					{ "name": "minecraft:air" }
+				],
+				"gen-body": [
+					{ "name": "minecraft:netherrack" },
+					{ "name": "minecraft:soul_sand" },
+					{ "name": "minecraft:gravel" },
+					{ "name": "minecraft:magma" },
+					{ "name": "minecraft:lava" },
+					{ "name": "minecraft:air" }
+				],
+				"smooth": true,
+				"fat": false,
+				"min-height": 16,
+				"height-variance": 6,
+				"height-mod": 8,
+				"gen-size": 0,
+				"size-variance": 2
+			},
+			"cluster-count": 2,
+			"chunk-chance": 100,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-stalagmite": {
+			"distribution": "cave",
+			"ceiling": false,
+			"generator": {
+				"type": "stalagmite",
+				"block": [
+					{ "name": "minecraft:bone_block", "weight": 95 },
+					{ "name": "minecraft:soul_sand", "weight": 5 }
+				],
+				"material": [
+					{ "name": "minecraft:netherrack" }
+				],
+				"gen-body": [
+					{ "name": "minecraft:netherrack" },
+					{ "name": "minecraft:soul_sand" },
+					{ "name": "minecraft:gravel" },
+					{ "name": "minecraft:magma" },
+					{ "name": "minecraft:lava" },
+					{ "name": "minecraft:air" }
+				],
+				"smooth": true,
+				"fat": false,
+				"min-height": 14,
+				"height-variance": 8,
+				"height-mod": 7,
+				"gen-size": 0,
+				"size-variance": 2
+			},
+			"cluster-count": 2,
+			"chunk-chance": 100,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-pillar": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": [
+					{ "weight": 80, "name": "minecraft:bone_block", "metadata": 1 },
+					{ "weight": 20, "name": "minecraft:air" }
+				],
+				"material": [
+					{ "name": "minecraft:netherrack" },
+					{ "name": "minecraft:soul_sand" },
+					{ "name": "minecraft:gravel" },
+					{ "name": "minecraft:magma" },
+					{ "name": "minecraft:lava" },
+					{ "name": "minecraft:air" },
+					{ "name": "minecraft:bedrock" }
+				],
+				"radius": 4,
+				"height": 64,
+				"slim": false
+			},
+			"cluster-count": 2,
+			"chunk-chance": 200,
+			"min-height": 65,
+			"max-height": 65,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-tnt": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "boulder",
+				"block": [
+					{ "weight": 67, "name": "minecraft:tnt", "metadata": 0 },
+					{ "weight": 33, "name": "minecraft:tnt", "metadata": 1 }
+				],
+				"material": [
+					{ "name": "minecraft:netherrack" }
+				],
+				"diameter": 1,
+				"size-variance": 1,
+				"count": 1,
+				"count-variance": 1
+			},
+			"min-height": 35,
+			"max-height": 120,
+			"cluster-count": 3,
+            "chunk-chance": 30,
+			"biome": "all",
+			"retrogen": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
 		}
 	}
 }

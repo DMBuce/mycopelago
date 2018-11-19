@@ -1,7 +1,67 @@
 {
 "block_pools" : [
 	{
-		"name": "mutandis",
+		"name": "mutandis-pumpkin2sprucelog",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "minecraft:pumpkin"
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "minecraft:log",
+				"meta": 1,
+				"amount": 1,
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "mutandis-melon2junglelog",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "minecraft:melon_block"
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "minecraft:log",
+				"meta": 3,
+				"amount": 1,
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "mutandis-mushroom",
 		"disableJEI": true,
 		"type":
 		{

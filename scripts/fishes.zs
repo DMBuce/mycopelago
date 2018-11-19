@@ -108,10 +108,10 @@ recipes.addShapeless(
 );
 
 # turn the rest of the fish into fishmeal
-#val minecraftfish = <minecraft:fish:0>
-#		| <minecraft:fish:1>
-#		| <minecraft:fish:2>
-#		| <minecraft:fish:3>;
+val minecraftfish = <minecraft:fish:0>
+		| <minecraft:fish:1>
+		| <minecraft:fish:2>
+		| <minecraft:fish:3>;
 val otherfish = <minecraft:fish:2>
 		| <advanced-fishing:fish:4>
 		| <advanced-fishing:fish:17>
@@ -122,13 +122,27 @@ val otherfish = <minecraft:fish:2>
 recipes.addShapeless(
 	"CTFish2Fishmeal",
 	<giacomos_fishing_net:itemfishmeal>,
-	[otherfish]
+	[otherfish | minecraftfish]
 );
 recipes.addShapeless(
 	"CTBigfish2Fishmeal",
 	<giacomos_fishing_net:itemfishmeal> * 3,
 	[<advanced-fishing:fish:36> | <advanced-fishing:fish:37>]
 );
+
+# double birdsfood fish recipes
+recipes.removeByRecipeName("birdsfoods:raw_fish_sticks");
+recipes.removeByRecipeName("birdsfoods:sashimi");
+recipes.removeByRecipeName("birdsfoods:fugu");
+recipes.addShapeless("CTFishSticks", <birdsfoods:raw_fish_sticks> * 2, [
+	<minecraft:fish:0>, <minecraft:fish:0>
+]);
+recipes.addShapeless("CTSashimi", <birdsfoods:sashimi> * 2, [
+	<minecraft:fish:1>, <minecraft:fish:1>
+]);
+recipes.addShapeless("CTFugu", <birdsfoods:fugu> * 2, [
+	<minecraft:fish:3>, <minecraft:fish:3>
+]);
 
 # use mortar & pestle to crush fish into bonemeal
 val smallfish = <minecraft:fish:0>

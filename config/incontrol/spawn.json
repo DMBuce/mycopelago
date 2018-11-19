@@ -31,6 +31,12 @@
 		"angry": true
 	},
 	{
+		"dimension": -1,
+		"block": "minecraft:bone_block",
+		"seesky": true,
+		"result": "deny"
+	},
+	{
 		"result": "default"
 	}
 ]

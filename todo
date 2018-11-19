@@ -3,60 +3,106 @@ Doing
 --
 Make 2 new Bird's Foods textures
 Retexture black lotus
-Redo wood recipes (see below)
-* Figure out Astral Sorcery recipe
-Add easy alchemy recipes for thaumcraft wood from regular wood
-* Botania: alchemical catalyst - redo so birch > silverwood
-* Thaumcraft: alchemical construct - ???
-* Blood Magic: alchemy circle (arcane ashes) - mutagenic paste for reagent
-* Astral Sorcery: Starlight Transmutation - birch & dark oak
-Add 5x5 sapling recipe
-* Astral Sorcery: Iridescent Altar
-* Botania: Will of ___
-* Thaumcraft: Void Metal I guess?
-* Blood Magic: Living Armor or something?
+Corpse Complex
+* Soulbinding?
+* XP module?
+Primitive Mobs
+* Bewitched Tome, Haunted Tool, Mimic, Blazing Juggernaut leave as Default
+* Brain Slime in the End
+* Spider Family in the Nether
+* Festive Creeper in Nether
+* Dodo in Mushroom Biome
+* Treasure Slime in slime chunks
+Update mods
+* Astral Sorcery
+* EBWizardry
 
-Pure Daisy + Cactus (requires block placers/breakers, timing)
-Crucible + Mushroom + Plant Aspect (requires silk touch mushroom farm, risky)
-Alchemical Table + Plank + Livingplank + Blood (needs autocrafting)
-Mutagenic Paste + Pumpkin (can't be automated)
-
-Inspirations: Cauldron + 
-Liquid Interaction: Blood + 
-Infusion: Liquid Starlight + 
+Mod Ideas / Feature/Pull Requests
+--
+Ride a firework rocket to the Skylands
+Compat between OTG and Lockdown
+* Breadcrumbs are at net.minecraft.client.gui.GuiCreateWorld in those projects
+Disable Ender Eyes
+Shearable Mooshrooms
+* Make em act like they just got punched when sheared
+MobSpawnMod
+* Add mobs on a per-biome, per-dimension, and/or per-structure basis
+Merpig
+* Fix texture
+* Fix AI
+* Make AI follow seaweed on a stick
+* Desaddle with right click
+MCreator -- program to create mods with
+BuenoBonemeal -- configurable bonemeal
+* Could be an Inspirations PR
+* Bonemeal Mycelium > Mushrooms
+* Bonemeal Sand > Cinderpearl, Dead Bush, Cactus, Sugarcane
+* Bonemeal Dirt > Tall Grass, Sugarcane
+Mushroom Pouch -- for botania mushrooms
+* alternately, Better Botania Bags -- for mushrooms, petals, flowers
+More Mushrooms
+* Adds mushroom variants of Sheep, Chickens, Horses, etc.
+* Mushroom cave spiders? Could drop mystical mushrooms
+Slime Supplement
+* Add slimes that grow and don't despawn so you can farm them
+* Only one of each offspring should grow to avoid geometric growth
+* Or, only named/persistent slimes should grow
+* Add different colored variants that give different resources
+* Actually, this could be done with clever use of CT + Scavenge, maybe?
+* Could be implemented as a PR to Primitive Mobs
+Endgame content: Worldtree Sapling (or something)
+* Crafted with one of each sapling plus some endgame items
+** Will of ___ from Botania
+** The Pinkinator
+** Dragon Egg
+* Grows a World Tree with a single Forbidden Fruit in the center
+* Possible perks
+** Spectator mode (enlightenment)
+** Access to keepInventory (immortality)
+** Change biome (rejuvenation / regrowth / restoration)
+** Quickly and easily build procedurally generated islands / mountains (growth)
+** Spawn eggs (life)
+** Shrink to 1x1 size (humility)
+* Hide Forbidden Fruit in JEI
 
 Todo
 --
-Make sure botania loops are mana positive
-World/worldgen changes
-* Obsidian End Quartz Geodes in The End
-* Obsidian spikes in The End
+Add 6x stairs recipes
 Overhaul fluids, add lots of interactions
 Revisit Mod Configs
-* Chisel - hide uncraftable blocks, check if block variants break anything
 * Bird's Foods - retexture everything :(
-Recurrent Complex ideas
+Recurrent Complex / OTG Structure ideas
+* Add Thaumcraft portals and stuff
 * Giant mushrooms made of petal blocks
 * Superhostile-type nether structures
 * Structures with spawners in nether / end
-* Shrines to Juiblex with slime spawners
+* Shrines to Jubbligu with slime spawners
 * Use Killer Bunny, Illusioner, Vex, Illagers, Firebats, Wisps somehow
 * Also use TNT and fire arrows
+* Put good wizards in encased obsidian end towers, make natgen towers short
+Add Lore?
+* Use Scavenge for notes
+Add Skylands dimension above Overworld
 Possible Mods
-* Some kind of backup mod
 * NoMoreRecipeConflict
+* Block Drops Tweaker?
+* Tell Me?
+* Some kind of backup mod (AromaBackup?)
 * HQM
+* That one that lets you ship default keybinds
+* SplashAnimation
 * Chicken Chunk
 * Recurrent Complex -- structures with spawners in nether
+* Modular Machinery -- could do multiblock altar type things
 * Addons for Thaumcraft, Blood Magic
-* Cyclic - for block placers?
 * Roguelike Dungeons - for spawners? or just add spawn eggs?
 * Epic Siege Mod or something else to increase line-of-sight aggro distance
 * Botania Tweaks
+* Blood Moon - for slimes only
 * Copy-Paste mod
 * Quadrum for custom blocks/items
 * Bauble Shulker Boxes
-* That one that lets you ship default keybinds
+* Cyclic - for block placers?
 * Underwater Utilities
 * Aquatic
 
@@ -89,6 +135,33 @@ Double-check ways to get Stone/Cobble/Obsidian/Lava/Saplings
 
 Done.
 --
+World/worldgen changes
+* Obsidian End Quartz Geodes in The End
+* Obsidian spikes in The End
+* TNT in the nether
+* Nether bone pillars
+* Nether blood pools
+* Wizard towers in the Nether
+Replace end portal room lava with obsidian
+Redo Bird's Food fish recipes
+Inspirations
+* Remove heartbeet, xmas bushes, path, barometer, north compass
+Make shrines and mana pools more rare
+Petal Apothecary: Green + Green + Black Petal > Cactus
+Reduce the amount of clay, sand, gravel in caves
+Add 5x5 sapling recipe
+Fix thaumcraft obsidian recipe
+Redo wood recipes
+* Pure Daisy + Cactus = Acacia (requires block placers/breakers, timing)
+* Crucible + Mushroom + Plant Aspect = Oak (requires silk touch mushroom farm, risky)
+* Alchemical Table + 2 Plank + Paper + Blood = Dark Oak (needs autocrafting)
+* Mutagenic Paste + Melon = Jungle (can't be automated)
+* Mutagenic Paste + Pumpkin = Spruce (can't be automated)
+* Astral Sorcery: Crystal + Wool = Birch
+Add easy alchemy recipes for thaumcraft wood from regular wood
+* Botania: alchemical catalyst
+* Blood Magic: alchemy circle (arcane ashes) - mutagenic paste for reagent
+* Astral Sorcery: Starlight Transmutation - birch & dark oak
 Add sources of unobtainable material
 * Rock Crystal
 * Starmetal
@@ -168,6 +241,9 @@ Tweak mob spawning
 # /kill @e[type=item]
 Tweak sugarcane gen
 Add mods
+* Ceramics for fluid transfer
+* Primitive Mobs
+* Corpse Complex -- finer keepInventory control
 * Inspirations
 * Chisel
 * BlockCraftery / Carpenter
@@ -194,118 +270,13 @@ Reduce Wizardry trees in worldgen
 Check if Wisdom Trees drop saplings
 Make Angelfish > Feather recipe
 
-Mod Ideas / Feature/Pull Requests
---
-Compat between OTG and Lockdown
-* Breadcrumbs are at net.minecraft.client.gui.GuiCreateWorld in those projects
-Disable Ender Eyes
-Shearable Mooshrooms
-* Make em act like they just got punched when sheared
-Merpig
-* Fix texture
-* Fix AI
-* Make AI follow seaweed on a stick
-* Desaddle with right click
-MCreator -- program to create mods with
-BuenoBonemeal -- configurable bonemeal
-* Bonemeal Mycelium > Mushrooms
-* Bonemeal Sand > Cinderpearl, Dead Bush, Cactus, Sugarcane
-* Bonemeal Dirt > Tall Grass, Sugarcane
-Mushroom Pouch -- for botania mushrooms
-* alternately, Better Botania Bags -- for mushrooms, petals, flowers
-More Mushrooms
-* Adds mushroom variants of Sheep, Chickens, Horses, etc.
-* Mushroom cave spiders? Could drop mystical mushrooms
-Slime Supplement
-* Add slimes that grow and don't despawn so you can farm them
-* Only one of each offspring should grow to avoid geometric growth
-* Or, only named/persistent slimes should grow
-* Add different colored variants that give different resources
-* Actually, this could be done with clever use of CT + Scavenge, maybe?
-Endgame content: Worldtree Sapling (or something)
-* Crafted with one of each sapling plus some endgame items
-** Will of ___ from Botania
-** The Pinkinator
-** Dragon Egg
-* Grows a World Tree with a single Forbidden Fruit in the center
-* Possible perks
-** Spectator mode (enlightenment)
-** Access to keepInventory (immortality)
-** Change biome (rejuvenation / regrowth / restoration)
-** Quickly and easily build procedurally generated islands / mountains (growth)
-** Spawn eggs (life)
-** Shrink to 1x1 size (humility)
-* Hide Forbidden Fruit in JEI
 
-Obsidian -- important! need it to get to nether
---
-Resources
-* Crystal Mullet > Lapis
-* Charged Bullhead > Redstone
-* Jellyfish > Slimeball
-* Angler Fish > Prismarine Crystals > Sea Lantern
-* Abyssal Lurker > Prismarine Shards > Prismarine
-* Sponge Eater > Sponge
-* Somefish > Coal?
-* Mushrooms
-* Vis Crystals
-* Water Bottles
-* Gravel, Clay, Sand
-* Flint
-* Seeds
-* Leather
-* Bones/Bonemeal
-* Tripwire
-* Minecart Tracks
-* Minecart
-* Clay Bucket (for Blood)
-mushrooms
-giant mushroom
-* mushroom blocks
-mycelium
-dirt
-* flint
-mooshrooms
-* beef
-* leather
-* bones
-water?
-botania mushrooms!
-* can be ground into pulp (i.e. petals)
-
-Botania/Guardian Obsidian
-* Prismarine + mushroom = Petal Apothecary
-* Four White Mushrooms + Seed = Pure Daisy
-* Pure Daisy + Magma = Obsidian
-
-* Spider Eye + Floral Powder + Pike = Blaze Pike = Blaze Powder
-* Spider Eye + Floral Powder + ??? = Obsidian Bream = Obsidian
-* Spider Eye + Floral Powder + Jellyfish = Magma Jellyfish = Magma Cream
-
-Thaumcraft Obsidian
-* Ignis + Floral Powder + Pike = Blaze Pike = Blaze Powder
-* Ignis + Floral Powder + ??? = Obsidian Bream = Obsidian
-* Ignis + Floral Powder + Jellyfish = Magma Jellyfish = Magma Cream
-
-Fishing Obsidian
-
-* Ideas
-** Jellyfish = Slimeball
-** Blaze Powder + Slimeball = Magma Cream = Magma
-** Popcorn Smelting mod
-* Option 1: Botania
-** Prismarine + any mushroom = Prismarine Apothecary
-** Four white mushrooms + seed = Pure Daisy
-** Bonemeal + Sand = Cinderpearl = Blaze Powder
-** Jellyfish = Slimeball
-** Blaze Powder + Slimeball = Magma = Obsidian
-* Option 2: Thaumcraft
-** Mushroom + Sugarcane + Spider Eye = Fermented Spider Eye
-** Fish + Ignis + Fermented Spider Eye + Black Floral Powder = Obsidian Fish
-* Option 3: Astral Sorcery
-** Find Astral Sorcery thing, get stone and ores, maybe skip the nether
 
 Description
+--
+(TODO: work in a blurb about high-difficulty areas like Monuments, Cave Spiders
+       ... and also that non-overworld dimensions are "as close to a procedurally generated Vex SuperHostile map as I could manage with the tools available to me, and without compromising fun."
+)
 --
 The world is overgrown with fungi. The only lifeforms are mushroom-infected cows. Everything is soft and spongy.
 
@@ -317,15 +288,17 @@ Mycopelago
 1. A sea or stretch of water containing many mushroom islands.
 Etymology: From Greek *myco-* "fungus" + *pelagos* "sea".
 
-The early game is a survival island experience. You'll need to scavenge in caves, pilfer abandoned mines, and fish the sea for resources. Those resources give access to psionic and electroblobby magic for tools. They also unlock fungal magic and eldritch mysteries that you can use to construct a portal to the nether, where you'll find lava for cobble generation.
+The early game is a survival island experience. There are no trees or stone so you'll need to scavenge in caves, pilfer abandoned mines, and fish the sea for resources. From these scraps, you can bootstrap your way to psionic and electroblobby magic for tools, unlock fungal magic and eldritch mysteries to construct a portal, and travel to the nether where you'll find lava for cobble generation.
 
 At that point, the game opens up a lot and offers several things.
 
-First of all you can complete the mushroom island challenge. Claim an island and replace all those mushrooms with beautiful green grass to create a peaceful haven for yourself. Use lighting aesthetically without fear of hostile mobs.
+First of all, there are interesting automation puzzles. Fishing nets can be automated for most resources. You won't have saplings until the midgame, so you'll have to find other ways to generate wood. Each of the five main elements (Flora, Fungi, Blood, Starlight and Vis) offer ways to transmute non-tree matter into wood, so you have plenty of options.
 
-There are also interesting automation puzzles. Fishing nets can be automated for most resources. You won't have saplings until the endgame, so you'll have to find other ways to generate wood.
+You can also complete the mushroom island challenge. Claim an island and replace all that mycelia with beautiful green grass to create a peaceful haven for yourself. Use dim lighting aesthetically without fear of hostile mobs. In the midgame, you can use your magic to create saplings and reforest your homestead.
 
 All the big magic mods are present, so you can explore Botania, Thaumcraft, Blood Magic, Astral Sorcery, Wizardry, Electroblob's Wizardry, and Magical Psi.
 
-For those of you who want some kind of end game goal, there's a 5x5 crafting recipe for Oak and Tree of Life saplings. Good luck, have fun!
+Near the end game you can also grow the Tree of Life. Who knows what precious mysteries it contains?
+
+Good luck, have fun!
 

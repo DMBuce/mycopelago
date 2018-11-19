@@ -88,17 +88,27 @@ events.onBlockHarvestDrops(function(event as crafttweaker.event.BlockHarvestDrop
 	}
 });
 
-# end portal frame recipe
-recipes.addShaped(
-	"CTEndPortalFrame",
-	<minecraft:end_portal_frame>,
-	[ [<minecraft:ender_pearl>, <minecraft:end_crystal>, <minecraft:ender_pearl>],
-	  [<minecraft:sandstone>, <minecraft:sandstone>, <minecraft:sandstone>] ]
-);
+## end portal frame recipe
+#recipes.addShaped(
+#	"CTEndPortalFrame",
+#	<minecraft:end_portal_frame>,
+#	[ [<minecraft:ender_pearl>, <minecraft:end_crystal>, <minecraft:ender_pearl>],
+#	  [<minecraft:sandstone>, <minecraft:sandstone>, <minecraft:sandstone>] ]
+#);
 
-# add description about stronghold to eye of ender
+## add description about stronghold to eye of ender
+#mods.jei.JEI.addDescription(
+#	<minecraft:ender_eye>,
+#	"There are no Strongholds in the world. You can craft End Portal Frames instead."
+#);
+
+# mutagenic paste description for pumpkin/melon > wood
 mods.jei.JEI.addDescription(
-	<minecraft:ender_eye>,
-	"There are no Strongholds in the world. You can craft End Portal Frames instead."
+	[<contenttweaker:mutandis>, <minecraft:pumpkin>, <minecraft:log:1>],
+	"Use (right-click) Mutagenic Paste on a Pumpkin to transmute it into Spruce Wood."
+);
+mods.jei.JEI.addDescription(
+	[<contenttweaker:mutandis>, <minecraft:melon_block>, <minecraft:log:3>],
+	"Use (right-click) Mutagenic Paste on a Melon to transmute it into Jungle Wood."
 );
 

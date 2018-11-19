@@ -42,50 +42,57 @@ recipes.addShaped(
 	  [ prisblock, prisblock, prisblock ] ]
 );
 
-val mushroom_blocks = [
-	<minecraft:brown_mushroom_block:0>,
-	<minecraft:brown_mushroom_block:1>,
-	<minecraft:brown_mushroom_block:2>,
-	<minecraft:brown_mushroom_block:3>,
-	<minecraft:brown_mushroom_block:4>,
-	<minecraft:brown_mushroom_block:5>,
-	<minecraft:brown_mushroom_block:6>,
-	<minecraft:brown_mushroom_block:7>,
-	<minecraft:brown_mushroom_block:8>,
-	<minecraft:brown_mushroom_block:9>,
-	<minecraft:brown_mushroom_block:10>,
-	<minecraft:brown_mushroom_block:11>,
-	<minecraft:brown_mushroom_block:12>,
-	<minecraft:brown_mushroom_block:13>,
-	<minecraft:brown_mushroom_block:14>,
-	<minecraft:brown_mushroom_block:15>,
-	<minecraft:red_mushroom_block:0>,
-	<minecraft:red_mushroom_block:1>,
-	<minecraft:red_mushroom_block:2>,
-	<minecraft:red_mushroom_block:3>,
-	<minecraft:red_mushroom_block:4>,
-	<minecraft:red_mushroom_block:5>,
-	<minecraft:red_mushroom_block:6>,
-	<minecraft:red_mushroom_block:7>,
-	<minecraft:red_mushroom_block:8>,
-	<minecraft:red_mushroom_block:9>,
-	<minecraft:red_mushroom_block:10>,
-	<minecraft:red_mushroom_block:11>,
-	<minecraft:red_mushroom_block:12>,
-	<minecraft:red_mushroom_block:13>,
-	<minecraft:red_mushroom_block:14>,
-	<minecraft:red_mushroom_block:15>
-] as IItemStack[];
+#val mushroom_blocks = [
+#	<minecraft:brown_mushroom_block:0>,
+#	<minecraft:brown_mushroom_block:1>,
+#	<minecraft:brown_mushroom_block:2>,
+#	<minecraft:brown_mushroom_block:3>,
+#	<minecraft:brown_mushroom_block:4>,
+#	<minecraft:brown_mushroom_block:5>,
+#	<minecraft:brown_mushroom_block:6>,
+#	<minecraft:brown_mushroom_block:7>,
+#	<minecraft:brown_mushroom_block:8>,
+#	<minecraft:brown_mushroom_block:9>,
+#	<minecraft:brown_mushroom_block:10>,
+#	<minecraft:brown_mushroom_block:11>,
+#	<minecraft:brown_mushroom_block:12>,
+#	<minecraft:brown_mushroom_block:13>,
+#	<minecraft:brown_mushroom_block:14>,
+#	<minecraft:brown_mushroom_block:15>,
+#	<minecraft:red_mushroom_block:0>,
+#	<minecraft:red_mushroom_block:1>,
+#	<minecraft:red_mushroom_block:2>,
+#	<minecraft:red_mushroom_block:3>,
+#	<minecraft:red_mushroom_block:4>,
+#	<minecraft:red_mushroom_block:5>,
+#	<minecraft:red_mushroom_block:6>,
+#	<minecraft:red_mushroom_block:7>,
+#	<minecraft:red_mushroom_block:8>,
+#	<minecraft:red_mushroom_block:9>,
+#	<minecraft:red_mushroom_block:10>,
+#	<minecraft:red_mushroom_block:11>,
+#	<minecraft:red_mushroom_block:12>,
+#	<minecraft:red_mushroom_block:13>,
+#	<minecraft:red_mushroom_block:14>,
+#	<minecraft:red_mushroom_block:15>
+#] as IItemStack[];
 
 # pure daisy
-# mushroom > oak log
-for block in mushroom_blocks {
-	mods.botania.PureDaisy.addRecipe(
-		block, <minecraft:log:0>
-	);
-}
+# cactus > oak log
+# t = 50 -> 22 in 80 ~= 1 in 4
+# t = 20 -> 6  in 80 ~= 1 in 13
+# t = 15 -> 4  in 28 ~= 1 in 7
+# t = 10 -> 3  in 80 ~= 1 in 27
+# t = 5  -> 3  in 160 ~= 1 in 53
+mods.botania.PureDaisy.addRecipe(<minecraft:cactus>, <minecraft:log2:0>);
 # magma > obsidian
 mods.botania.PureDaisy.addRecipe(<minecraft:magma>, <minecraft:obsidian>);
+## mushroom > oak log
+#for block in mushroom_blocks {
+#	mods.botania.PureDaisy.addRecipe(
+#		block, <minecraft:log:0>
+#	);
+#}
 
 # apothecary
 # pink + light green + light blue > crystal flower
@@ -93,6 +100,13 @@ mods.botania.Apothecary.addRecipe(
 	<ebwizardry:crystal_flower>,
 	[<ore:petalPink>, <ore:petalLime>, <ore:petalLightBlue>]
 );
+
+# green + green + black > cactus
+mods.botania.Apothecary.addRecipe(
+	<minecraft:cactus>,
+	[<ore:petalGreen>, <ore:petalGreen>, <ore:petalBlack>]
+);
+
 
 # add mushroom tooltip
 mods.jei.JEI.addDescription(<contenttweaker:mutandis>, "Used to mutate mushrooms.");

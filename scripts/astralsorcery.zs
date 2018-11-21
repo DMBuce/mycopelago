@@ -40,7 +40,7 @@ val ritdiv = <bloodmagic:ritual_diviner>;
 #	"mycopelago:shaped/internal/altar/oaksapling",
 #tier5ASAltarRecipeNoConst(
 mods.astralsorcery.Altar.addTraitAltarRecipe(
-	<minecraft:sapling:0>, 4500, 100,
+	"CTOakSapling", <minecraft:sapling:0>, 4500, 100,
 	[
 		# middle 3x3
 		dreamwood, terrajar,  dreamwood,
@@ -65,7 +65,7 @@ val duskdiv = <bloodmagic:ritual_diviner:1>;
 #	"mycopelago:shaped/internal/altar/worldtree",
 #tier5ASAltarRecipe(
 mods.astralsorcery.Altar.addTraitAltarRecipe(
-	<psi:cad_assembly:5>, 4500, 100,
+	"CTEndGameItem", <psi:cad_assembly:5>, 4500, 100,
 	[
 		# middle 3x3
 		gaiaspirit, voidseed,  gaiaspirit,
@@ -120,7 +120,7 @@ val endstone = <minecraft:end_stone>;
 val airbottle = <botania:manaresource:15>;
 val endchest = <minecraft:ender_chest>;
 mods.astralsorcery.Altar.addTraitAltarRecipe(
-	<minecraft:end_portal_frame> * 12, 4500, 100,
+	"CTEndPortalFrame", <minecraft:end_portal_frame> * 12, 4500, 100,
 	[
 		# middle 3x3
 		null,      null,     null,

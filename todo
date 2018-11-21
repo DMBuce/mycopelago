@@ -3,75 +3,23 @@ Doing
 --
 Make 2 new Bird's Foods textures
 Retexture black lotus
-Corpse Complex
-* Soulbinding?
-* XP module?
-Primitive Mobs
-* Bewitched Tome, Haunted Tool, Mimic, Blazing Juggernaut leave as Default
-* Brain Slime in the End
-* Spider Family in the Nether
-* Festive Creeper in Nether
-* Dodo in Mushroom Biome
-* Treasure Slime in slime chunks
-Update mods
-* Astral Sorcery
-* EBWizardry
-
-Mod Ideas / Feature/Pull Requests
---
-Ride a firework rocket to the Skylands
-Compat between OTG and Lockdown
-* Breadcrumbs are at net.minecraft.client.gui.GuiCreateWorld in those projects
-Disable Ender Eyes
-Shearable Mooshrooms
-* Make em act like they just got punched when sheared
-MobSpawnMod
-* Add mobs on a per-biome, per-dimension, and/or per-structure basis
-Merpig
-* Fix texture
-* Fix AI
-* Make AI follow seaweed on a stick
-* Desaddle with right click
-MCreator -- program to create mods with
-BuenoBonemeal -- configurable bonemeal
-* Could be an Inspirations PR
-* Bonemeal Mycelium > Mushrooms
-* Bonemeal Sand > Cinderpearl, Dead Bush, Cactus, Sugarcane
-* Bonemeal Dirt > Tall Grass, Sugarcane
-Mushroom Pouch -- for botania mushrooms
-* alternately, Better Botania Bags -- for mushrooms, petals, flowers
-More Mushrooms
-* Adds mushroom variants of Sheep, Chickens, Horses, etc.
-* Mushroom cave spiders? Could drop mystical mushrooms
-Slime Supplement
-* Add slimes that grow and don't despawn so you can farm them
-* Only one of each offspring should grow to avoid geometric growth
-* Or, only named/persistent slimes should grow
-* Add different colored variants that give different resources
-* Actually, this could be done with clever use of CT + Scavenge, maybe?
-* Could be implemented as a PR to Primitive Mobs
-Endgame content: Worldtree Sapling (or something)
-* Crafted with one of each sapling plus some endgame items
-** Will of ___ from Botania
-** The Pinkinator
-** Dragon Egg
-* Grows a World Tree with a single Forbidden Fruit in the center
-* Possible perks
-** Spectator mode (enlightenment)
-** Access to keepInventory (immortality)
-** Change biome (rejuvenation / regrowth / restoration)
-** Quickly and easily build procedurally generated islands / mountains (growth)
-** Spawn eggs (life)
-** Shrink to 1x1 size (humility)
-* Hide Forbidden Fruit in JEI
 
 Todo
 --
+Redo Worldgen, look into non-OTG mods
+* Biome Tweaker
+* CoFH World?
+* #abandoned's repo?
+* Advanced Rocketry
+* Just Enough Dimensions
+* Dimensional Control
+* Void Island Control
+* Climate Control/Geographicraft
 Add 6x stairs recipes
 Overhaul fluids, add lots of interactions
 Revisit Mod Configs
 * Bird's Foods - retexture everything :(
-Recurrent Complex / OTG Structure ideas
+Recurrent Complex / OTG Structure / Pillar ideas
 * Add Thaumcraft portals and stuff
 * Giant mushrooms made of petal blocks
 * Superhostile-type nether structures
@@ -84,12 +32,15 @@ Add Lore?
 * Use Scavenge for notes
 Add Skylands dimension above Overworld
 Possible Mods
+* Alfinivia - liquid interaction! right-click entities!
+* Tool Belt
+* Fixable Slots
 * NoMoreRecipeConflict
 * Block Drops Tweaker?
 * Tell Me?
 * Some kind of backup mod (AromaBackup?)
 * HQM
-* That one that lets you ship default keybinds
+* Default Options
 * SplashAnimation
 * Chicken Chunk
 * Recurrent Complex -- structures with spawners in nether
@@ -105,6 +56,60 @@ Possible Mods
 * Cyclic - for block placers?
 * Underwater Utilities
 * Aquatic
+
+Mod Ideas / Feature/Pull Requests
+--
+Compat between OTG and Lockdown
+* Breadcrumbs are at net.minecraft.client.gui.GuiCreateWorld in those projects
+Merpig
+* Fix texture
+* Fix AI
+* Make AI follow seaweed on a stick
+* Desaddle with right click
+BuenoBonemeal -- configurable bonemeal
+* Could be an Inspirations PR
+* Bonemeal Mycelium > Mushrooms
+* Bonemeal Sand > Cinderpearl, Dead Bush, Cactus, Sugarcane
+* Bonemeal Dirt > Tall Grass, Sugarcane
+MobSpawnMod
+* Add mobs on a per-biome, per-dimension, and/or per-structure basis
+* Use it to do the following with Primitive Mobs
+* Bewitched Tome, Haunted Tool, Mimic, Blazing Juggernaut leave as Default
+* Dodo in Mushroom Biome
+* Brain Slime in the End
+* Spider Family in the Nether
+* Festive Creeper in Nether
+* Treasure Slime in slime chunks
+Shearable Mooshrooms
+* Make em act like they just got punched when sheared
+MCreator -- program to create mods with
+Mushroom Pouch -- for botania mushrooms
+* alternately, Better Botania Bags -- for mushrooms, petals, flowers
+More Mushrooms
+* Adds mushroom variants of Sheep, Chickens, Horses, etc.
+* Mushroom cave spiders? Could drop mystical mushrooms
+Slime Supplement
+* Add slimes that grow and don't despawn so you can farm them
+* Only one of each offspring should grow to avoid geometric growth
+* Or, only named/persistent slimes should grow
+* Add different colored variants that give different resources
+* Actually, this could be done with clever use of CT + Scavenge, maybe?
+* Could be implemented as a PR to Primitive Mobs
+Ride a firework rocket to the Skylands
+Endgame content: Worldtree Sapling (or something)
+* Crafted with one of each sapling plus some endgame items
+** Will of ___ from Botania
+** The Pinkinator
+** Dragon Egg
+* Grows a World Tree with a single Forbidden Fruit in the center
+* Possible perks
+** Spectator mode (enlightenment)
+** Access to keepInventory (immortality)
+** Change biome (rejuvenation / regrowth / restoration)
+** Quickly and easily build procedurally generated islands / mountains (growth)
+** Spawn eggs (life)
+** Shrink to 1x1 size (humility)
+* Hide Forbidden Fruit in JEI
 
 Quests/Docs
 ---
@@ -127,6 +132,7 @@ Cleanup Phase
 ---
 Add ways to obtain passive mobs
 Implement Scrub version of the pack
+* Could use Player's Choice mod for this
 Check scripts for stuff that should be oreDict'ed
 Review ores
 Look for unobtainable materials somehow -- JEI?
@@ -135,6 +141,11 @@ Double-check ways to get Stone/Cobble/Obsidian/Lava/Saplings
 
 Done.
 --
+Add alternate ender eye recipe
+Update Astral Sorcery
+Corpse Complex
+* Soulbinding
+* XP module
 World/worldgen changes
 * Obsidian End Quartz Geodes in The End
 * Obsidian spikes in The End
@@ -241,6 +252,7 @@ Tweak mob spawning
 # /kill @e[type=item]
 Tweak sugarcane gen
 Add mods
+* Charset Storage Barrels
 * Ceramics for fluid transfer
 * Primitive Mobs
 * Corpse Complex -- finer keepInventory control

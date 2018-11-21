@@ -18,6 +18,14 @@ recipes.addShapeless(
 	[woodfence]
 );
 
+# blaze rod + 2 ender pearls > 2 ender eyes
+recipes.removeByRecipeName("minecraft:ender_eye");
+recipes.addShapeless(
+	"CTEnderEye",
+	<minecraft:ender_eye> * 2,
+	[<minecraft:blaze_rod>, <minecraft:ender_pearl>, <minecraft:ender_pearl>]
+);
+
 ## flint shears
 #recipes.remove(<minecraft:shears>);
 #recipes.addShaped("CTShears", <minecraft:shears>, [
